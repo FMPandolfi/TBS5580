@@ -30,6 +30,8 @@ make -j 4
 
 make install
 
+# Firmware installation
+
 cd ..
 
 wget http://www.tbsdtv.com/download/document/linux/tbs-tuner-firmwares_v1.0.tar.bz2
@@ -41,7 +43,7 @@ reboot
 # Post-installation
 cd tbsdriver/
 
-dmesg |grep frontend
+dmesg | grep frontend
 
 # Usage
 cd /dev/dvb/

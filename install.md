@@ -2,9 +2,11 @@
 
 sudo -s 
 
-apt install gcc linux-headers-$(uname -r) build-essential subversion mercurial openssl gettext libssl-dev screen libv4l-dev
+apt install gcc linux-headers-$(uname -r) build-essential subversion mercurial openssl gettext libssl-dev screen libv4l-dev bin86 byacc elfutils fakeroot libbison-dev liblz4-dev liblz4-tool libelf-dev libfl-dev ubuntu-dev-tools
 
-apt install gcc git make patchutils libproc-processtable-perl
+apt install linux-source-5.19.0
+
+apt install git make patchutils libproc-processtable-perl
 
 lsusb -vvv |grep 5580
 

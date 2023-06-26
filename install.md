@@ -8,7 +8,7 @@ apt install linux-source-5.19.0
 
 apt install git make patchutils libproc-processtable-perl
 
-lsusb -vvv |grep 5580
+lsusb -vvv | grep 5580
 
 # Main installation
 

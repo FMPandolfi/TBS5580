@@ -75,10 +75,27 @@ ln -s net0 net1
 
 apt install dvblast
 
-# Usage examples
+### Usage examples
 
 dvblast -f 650000000 -b 8 -a 0 -5 dvbt
 
+#### TS stream
 sudo dvblast -f 11766000 -s 29900000 -v 13 -p -a 0 -n 1 -5 dvbs2 -m psk_8
 
+#### GSE stream
 sudo dvblast -f 11023000 -s 23500000 -v 18 -S 2 -a 0 -n 1 -5 dvbs2 -m psk_8 -R 0
+
+
+## *Install dvbsnoop*
+
+apt install dvbsnoop
+
+### Usage examples
+
+#### PID Scan
+dvbsnoop -s pidscan -frontend /dev/dvb/adapter0/frontend1 -pd 9 -ph 3 -maxdmx 20
+
+#### "Spider scan" from PAT pid
+dvbsnoop -s sec -spiderpid -frontend /dev/dvb/adapter0/frontend1 -ph 3 -N 1 0
+
+

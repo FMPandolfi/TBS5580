@@ -147,7 +147,7 @@ reserved_5: 15 (0x0f)
 Transport_stream_loop_length: 84 (0x0054)
 
     Transport_stream_ID: 5200 (0x1450)
-    Original_network_ID: 318 (0x013e)  [= Eutelsat Satellite System 13°E | European Telecommunications Satellite Organization]
+    Original_network_ID: 318 (0x013e)  [= Eutelsat Satellite System 13Â°E | European Telecommunications Satellite Organization]
     reserved_1: 15 (0x0f)
     Transport_descriptor_length: 78 (0x004e)
 

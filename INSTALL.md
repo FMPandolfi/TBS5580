@@ -76,5 +76,21 @@ dvbsnoop -s sec -spiderpid -frontend /dev/dvb/adapter0/frontend1 -ph 3 -N 1 17
 ## TSDuck installation
 
 ### TSDuck usage examples
-tsp -I dvb --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2
+- **Simple tuning on a satellite TS using a DVB device as input**\
+tsp -I dvb --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 
+- **Analyze the DVB-S2 TS from a DVB device**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P analyze -O drop
+- **Same as previous but with normalize output to simplify parsing operations**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P analyze --normalized -O drop \
+- **Write TS tables from satellite TS**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --xml-output tsp-dvb-tables-dump-test.xml -O drop 
+- **Write TS tables in PSI/SI format from satellite TS**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --psi-si -O drop
+- **SDT table dump in xml format**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --pid 17 --xml-output tsp-dvb-tables-sdt-pid17-dump-test.xml -O drop
+- **EIT table dump in xml format**\
+tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --pid 18 --xml-output tsp-dvb-tables-eit-pid18-dump-test.xml -O drop
+
+
+
 

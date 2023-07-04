@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+  <SDT version="4" current="true" transport_stream_id="0x1450" original_network_id="0x013E" actual="true">
+    <metadata PID="17"/>
+    <service service_id="0x0D49" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 1 HD"/>
+    </service>
+    <service service_id="0x0D4A" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 2 HD"/>
+    </service>
+    <service service_id="0x0D4B" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 3 HD"/>
+    </service>
+    <service service_id="0x0D4D" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="" service_name="Rai 4 HD"/>
+    </service>
+    <service service_id="0x0D4E" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai Movie HD"/>
+    </service>
+    <service service_id="0x0D4F" EIT_schedule="false" EIT_present_following="false" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x1F" service_provider_name="Rai" service_name="Rai 4K"/>
+    </service>
+    <service service_id="0x0D71" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 1"/>
+    </service>
+    <service service_id="0x0D72" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 2"/>
+    </service>
+    <service service_id="0x0D73" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 3"/>
+    </service>
+    <service service_id="0x0D74" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio3 Classica"/>
+    </service>
+    <service service_id="0x0D75" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai GR Parlamento"/>
+    </service>
+    <service service_id="0x0D76" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Isoradio"/>
+    </service>
+    <service service_id="0x0D77" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Techete&apos;"/>
+    </service>
+    <service service_id="0x0D78" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Live Napoli"/>
+    </service>
+    <service service_id="0x0D79" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Kids"/>
+    </service>
+    <service service_id="0x0D7A" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="No Name Radio"/>
+    </service>
+    <service service_id="0x0D7B" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Tutta Italiana"/>
+    </service>
+    <service service_id="0x0D7C" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="L’Ora della Venezia Giulia"/>
+    </service>
+    <service service_id="0x0D7D" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio1 Sport"/>
+    </service>
+    <service service_id="0x0D7E" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="Rai Radio Slovenia"/>
+    </service>
+    <service service_id="0x0D7F" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="Rai Radio Südtirol"/>
+    </service>
+  </SDT>
+</tsduck>

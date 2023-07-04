@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+  <PAT version="28" current="true" transport_stream_id="0x1450" network_PID="0x0010">
+    <metadata PID="0"/>
+    <service service_id="0x0D49" program_map_PID="0x044D"/>
+    <service service_id="0x0D4A" program_map_PID="0x044E"/>
+    <service service_id="0x0D4B" program_map_PID="0x044F"/>
+    <service service_id="0x0D4D" program_map_PID="0x0451"/>
+    <service service_id="0x0D4E" program_map_PID="0x0452"/>
+    <service service_id="0x0D4F" program_map_PID="0x0453"/>
+    <service service_id="0x0D71" program_map_PID="0x0461"/>
+    <service service_id="0x0D72" program_map_PID="0x0462"/>
+    <service service_id="0x0D73" program_map_PID="0x0463"/>
+    <service service_id="0x0D74" program_map_PID="0x0464"/>
+    <service service_id="0x0D75" program_map_PID="0x0465"/>
+    <service service_id="0x0D76" program_map_PID="0x0466"/>
+    <service service_id="0x0D77" program_map_PID="0x0467"/>
+    <service service_id="0x0D78" program_map_PID="0x0468"/>
+    <service service_id="0x0D79" program_map_PID="0x0469"/>
+    <service service_id="0x0D7A" program_map_PID="0x046A"/>
+    <service service_id="0x0D7B" program_map_PID="0x046B"/>
+    <service service_id="0x0D7C" program_map_PID="0x046C"/>
+    <service service_id="0x0D7D" program_map_PID="0x046D"/>
+    <service service_id="0x0D7E" program_map_PID="0x046E"/>
+    <service service_id="0x0D7F" program_map_PID="0x046F"/>
+  </PAT>
+  <PMT version="5" current="true" service_id="0x0D4A" PCR_PID="0x01F6">
+    <metadata PID="1,102"/>
+    <component elementary_PID="0x01F6" stream_type="0x1B">
+      <AVC_timing_and_HRD_descriptor hrd_management_valid="true" fixed_frame_rate="true" temporal_poc="true" picture_to_display_conversion="true"/>
+      <AVC_video_descriptor profile_idc="0x40" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x00" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+    </component>
+    <component elementary_PID="0x0238" stream_type="0x06">
+      <teletext_descriptor>
+        <teletext language_code="ita" teletext_type="0x01" page_number="100"/>
+        <teletext language_code="ita" teletext_type="0x02" page_number="777"/>
+        <teletext language_code="eng" teletext_type="0x02" page_number="778"/>
+      </teletext_descriptor>
+    </component>
+    <component elementary_PID="0x025A" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x0264" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_AC3_descriptor/>
+    </component>
+    <component elementary_PID="0x026E" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x0278" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="10" current="true" service_id="0x0D4B" PCR_PID="0x01F7">
+    <metadata PID="1,103"/>
+    <component elementary_PID="0x01F7" stream_type="0x1B">
+      <AVC_timing_and_HRD_descriptor hrd_management_valid="true" fixed_frame_rate="true" temporal_poc="true" picture_to_display_conversion="true"/>
+      <AVC_video_descriptor profile_idc="0x40" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x00" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+    </component>
+    <component elementary_PID="0x0239" stream_type="0x06">
+      <teletext_descriptor>
+        <teletext language_code="ita" teletext_type="0x01" page_number="100"/>
+        <teletext language_code="ita" teletext_type="0x02" page_number="777"/>
+        <teletext language_code="eng" teletext_type="0x02" page_number="778"/>
+      </teletext_descriptor>
+    </component>
+    <component elementary_PID="0x025B" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x026F" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D76" PCR_PID="0x0286">
+    <metadata PID="1,126"/>
+    <component elementary_PID="0x0286" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D79" PCR_PID="0x0289">
+    <metadata PID="1,129"/>
+    <component elementary_PID="0x0289" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="10" current="true" service_id="0x0D4F" PCR_PID="0x01FB">
+    <metadata PID="1,107"/>
+    <scrambling_descriptor scrambling_mode="0x02"/>
+    <component elementary_PID="0x01FB" stream_type="0x24">
+      <HEVC_video_descriptor profile_space="0x00" tier_flag="false" profile_idc="0x02" profile_compatibility_indication="0x00000004" progressive_source_flag="true" interlaced_source_flag="false" non_packed_constraint_flag="true" frame_only_constraint_flag="true" copied_44bits="0x0000000000000000" level_idc="0x99" HEVC_still_present_flag="false" HEVC_24hr_picture_present_flag="false" sub_pic_hrd_params_not_present="true" HDR_WCG_idc="3"/>
+      <generic_descriptor tag="0x3F">
+        03 FF FF 00 00 00 01
+      </generic_descriptor>
+      <stream_identifier_descriptor component_tag="0x0A"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA7"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1137"/>
+    </component>
+    <component elementary_PID="0x025F" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_enhanced_AC3_descriptor mixinfoexists="false" component_type="0xC4" bsid="0x10"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA7"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1137"/>
+    </component>
+    <component elementary_PID="0x0269" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_enhanced_AC3_descriptor mixinfoexists="false" component_type="0xC4" bsid="0x10"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA7"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1137"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="4" current="true" service_id="0x0D7E" PCR_PID="0x028E">
+    <metadata PID="1,134"/>
+    <component elementary_PID="0x028E" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="3" current="true" service_id="0x0D7C">
+    <metadata PID="1,132"/>
+    <component elementary_PID="0x028C" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="3" current="true" service_id="0x0D4D" PCR_PID="0x01F9">
+    <metadata PID="1,105"/>
+    <component elementary_PID="0x01F9" stream_type="0x1B">
+      <AVC_timing_and_HRD_descriptor hrd_management_valid="true" fixed_frame_rate="true" temporal_poc="true" picture_to_display_conversion="true"/>
+      <AVC_video_descriptor profile_idc="0x40" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x00" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA4"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D0"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1134"/>
+    </component>
+    <component elementary_PID="0x0247" stream_type="0x06">
+      <teletext_descriptor>
+        <teletext language_code="ita" teletext_type="0x01" page_number="100"/>
+        <teletext language_code="ita" teletext_type="0x02" page_number="777"/>
+        <teletext language_code="eng" teletext_type="0x02" page_number="778"/>
+      </teletext_descriptor>
+    </component>
+    <component elementary_PID="0x025D" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA4"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D0"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1134"/>
+    </component>
+    <component elementary_PID="0x0267" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_AC3_descriptor/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA4"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D0"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1134"/>
+    </component>
+    <component elementary_PID="0x0271" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA4"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D0"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1134"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D71" PCR_PID="0x0281">
+    <metadata PID="1,121"/>
+    <component elementary_PID="0x0281" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D72" PCR_PID="0x0282">
+    <metadata PID="1,122"/>
+    <component elementary_PID="0x0282" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D74" PCR_PID="0x0284">
+    <metadata PID="1,124"/>
+    <component elementary_PID="0x0284" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D7D" PCR_PID="0x028D">
+    <metadata PID="1,133"/>
+    <component elementary_PID="0x028D" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D78" PCR_PID="0x0288">
+    <metadata PID="1,128"/>
+    <component elementary_PID="0x0288" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="24" current="true" service_id="0x0D49" PCR_PID="0x01F5">
+    <metadata PID="1,101"/>
+    <component elementary_PID="0x01F5" stream_type="0x1B">
+      <AVC_timing_and_HRD_descriptor hrd_management_valid="true" fixed_frame_rate="true" temporal_poc="true" picture_to_display_conversion="true"/>
+      <AVC_video_descriptor profile_idc="0x40" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x00" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+    </component>
+    <component elementary_PID="0x0237" stream_type="0x06">
+      <teletext_descriptor>
+        <teletext language_code="ita" teletext_type="0x01" page_number="100"/>
+        <teletext language_code="ita" teletext_type="0x02" page_number="777"/>
+        <teletext language_code="eng" teletext_type="0x02" page_number="778"/>
+      </teletext_descriptor>
+    </component>
+    <component elementary_PID="0x0259" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x0263" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_AC3_descriptor/>
+    </component>
+    <component elementary_PID="0x026D" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x0277" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="5" current="true" service_id="0x0D4E" PCR_PID="0x01FA">
+    <metadata PID="1,106"/>
+    <component elementary_PID="0x01FA" stream_type="0x1B">
+      <AVC_timing_and_HRD_descriptor hrd_management_valid="true" fixed_frame_rate="true" temporal_poc="true" picture_to_display_conversion="true"/>
+      <AVC_video_descriptor profile_idc="0x40" constraint_set0="false" constraint_set1="false" constraint_set2="false" constraint_set3="false" constraint_set4="false" constraint_set5="false" AVC_compatible_flags="0x00" level_idc="0x00" AVC_still_present="false" AVC_24_hour_picture="false" frame_packing_SEI_not_present="true"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA6"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D2"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1136"/>
+    </component>
+    <component elementary_PID="0x024A" stream_type="0x06">
+      <teletext_descriptor>
+        <teletext language_code="ita" teletext_type="0x01" page_number="100"/>
+        <teletext language_code="ita" teletext_type="0x02" page_number="777"/>
+        <teletext language_code="eng" teletext_type="0x02" page_number="778"/>
+      </teletext_descriptor>
+    </component>
+    <component elementary_PID="0x025E" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA6"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D2"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1136"/>
+    </component>
+    <component elementary_PID="0x0268" stream_type="0x06">
+      <ISO_639_language_descriptor>
+        <language code="oth" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <DVB_AC3_descriptor/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA6"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D2"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1136"/>
+    </component>
+    <component elementary_PID="0x0272" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="eng" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+      <CA_descriptor CA_system_id="0x1856" CA_PID="0x0FA6"/>
+      <CA_descriptor CA_system_id="0x183D" CA_PID="0x10D2"/>
+      <CA_descriptor CA_system_id="0x183E" CA_PID="0x1136"/>
+    </component>
+    <component elementary_PID="0x07DB" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0001" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x07DC" stream_type="0x05">
+      <application_signalling_descriptor>
+        <application application_type="0x0010" AIT_version_number="0x00"/>
+      </application_signalling_descriptor>
+    </component>
+    <component elementary_PID="0x0BC3" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x00F0"/>
+      <carousel_identifier_descriptor carousel_id="0x00000041">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2E"/>
+    </component>
+    <component elementary_PID="0x0BC4" stream_type="0x0B">
+      <data_broadcast_id_descriptor data_broadcast_id="0x0123"/>
+      <carousel_identifier_descriptor carousel_id="0x0000003E">
+        <private_data>
+          00
+        </private_data>
+      </carousel_identifier_descriptor>
+      <stream_identifier_descriptor component_tag="0x2A"/>
+    </component>
+    <component elementary_PID="0x0C1D" stream_type="0x0C">
+      <stream_identifier_descriptor component_tag="0x32"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D73" PCR_PID="0x0283">
+    <metadata PID="1,123"/>
+    <component elementary_PID="0x0283" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D7B" PCR_PID="0x028B">
+    <metadata PID="1,131"/>
+    <component elementary_PID="0x028B" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D75" PCR_PID="0x0285">
+    <metadata PID="1,125"/>
+    <component elementary_PID="0x0285" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D7A" PCR_PID="0x028A">
+    <metadata PID="1,130"/>
+    <component elementary_PID="0x028A" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="6" current="true" service_id="0x0D77" PCR_PID="0x0287">
+    <metadata PID="1,127"/>
+    <component elementary_PID="0x0287" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <PMT version="2" current="true" service_id="0x0D7F" PCR_PID="0x028F">
+    <metadata PID="1,135"/>
+    <component elementary_PID="0x028F" stream_type="0x03">
+      <ISO_639_language_descriptor>
+        <language code="ita" audio_type="0x00"/>
+      </ISO_639_language_descriptor>
+      <audio_stream_descriptor free_format="false" ID="1" layer="2" variable_rate_audio="false"/>
+    </component>
+  </PMT>
+  <CAT version="9" current="true">
+    <metadata PID="1"/>
+    <CA_descriptor CA_system_id="0x0100" CA_PID="0x00B8">
+      <private_data>
+        02 E0 BD 00 00 E0 BE 00 30
+      </private_data>
+    </CA_descriptor>
+    <CA_descriptor CA_system_id="0x181B" CA_PID="0x00B8">
+      <private_data>
+        02 FE 22
+      </private_data>
+    </CA_descriptor>
+    <CA_descriptor CA_system_id="0x181B" CA_PID="0x00BE">
+      <private_data>
+        02 00 30
+      </private_data>
+    </CA_descriptor>
+    <CA_descriptor CA_system_id="0x183D" CA_PID="0x0137"/>
+    <CA_descriptor CA_system_id="0x183E" CA_PID="0x0137"/>
+    <CA_descriptor CA_system_id="0x187E" CA_PID="0x1EDC"/>
+  </CAT>
+  <SDT version="4" current="true" transport_stream_id="0x1450" original_network_id="0x013E" actual="true">
+    <metadata PID="17"/>
+    <service service_id="0x0D49" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 1 HD"/>
+    </service>
+    <service service_id="0x0D4A" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 2 HD"/>
+    </service>
+    <service service_id="0x0D4B" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai 3 HD"/>
+    </service>
+    <service service_id="0x0D4D" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="" service_name="Rai 4 HD"/>
+    </service>
+    <service service_id="0x0D4E" EIT_schedule="true" EIT_present_following="true" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x19" service_provider_name="Rai" service_name="Rai Movie HD"/>
+    </service>
+    <service service_id="0x0D4F" EIT_schedule="false" EIT_present_following="false" CA_mode="true" running_status="running">
+      <service_descriptor service_type="0x1F" service_provider_name="Rai" service_name="Rai 4K"/>
+    </service>
+    <service service_id="0x0D71" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 1"/>
+    </service>
+    <service service_id="0x0D72" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 2"/>
+    </service>
+    <service service_id="0x0D73" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio 3"/>
+    </service>
+    <service service_id="0x0D74" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio3 Classica"/>
+    </service>
+    <service service_id="0x0D75" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai GR Parlamento"/>
+    </service>
+    <service service_id="0x0D76" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Isoradio"/>
+    </service>
+    <service service_id="0x0D77" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Techete&apos;"/>
+    </service>
+    <service service_id="0x0D78" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Live Napoli"/>
+    </service>
+    <service service_id="0x0D79" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Kids"/>
+    </service>
+    <service service_id="0x0D7A" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="No Name Radio"/>
+    </service>
+    <service service_id="0x0D7B" EIT_schedule="false" EIT_present_following="true" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio Tutta Italiana"/>
+    </service>
+    <service service_id="0x0D7C" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="L’Ora della Venezia Giulia"/>
+    </service>
+    <service service_id="0x0D7D" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x02" service_provider_name="Rai" service_name="Rai Radio1 Sport"/>
+    </service>
+    <service service_id="0x0D7E" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="Rai Radio Slovenia"/>
+    </service>
+    <service service_id="0x0D7F" EIT_schedule="false" EIT_present_following="false" CA_mode="false" running_status="running">
+      <service_descriptor service_type="0x0A" service_provider_name="Rai" service_name="Rai Radio Südtirol"/>
+    </service>
+  </SDT>
+</tsduck>

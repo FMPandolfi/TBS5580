@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tsduck>
+  <EIT type="pf" version="11" current="true" actual="true" service_id="0x0D73" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF8DF" start_time="2023-07-04 16:45:00" duration="00:15:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>GR 3</event_name>
+        <text>GR  3
+</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>GR  3
+</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF8E0" start_time="2023-07-04 17:00:00" duration="00:50:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>HOLLYWOOD PARTY</event_name>
+        <text>Hollywood Party
+Con Enrico Magrelli e Stefania Ulivi
+</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>Hollywood Party
+Con Enrico Magrelli e Stefania Ulivi
+</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="13" current="true" actual="true" service_id="0x0D7D" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF811" start_time="2023-07-04 16:05:00" duration="00:55:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>POP  SPORT</event_name>
+        <text>Pop  &amp; sport
+</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>Pop  &amp; sport
+</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF812" start_time="2023-07-04 17:00:00" duration="00:20:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>GR 1</event_name>
+        <text>GR 1</text>
+      </short_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="27" current="true" actual="true" service_id="0x0D49" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF91F" start_time="2023-07-04 16:45:00" duration="01:15:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Reazione a Catena</event_name>
+        <text>INTRATTENIMENTO - Dallo Studio TV2 di Napoli il gioco che, attraverso l'associazione logica di parole, mette alla prova l'intuito, la prontezza e la padronanza della lingua italiana dei concorrenti ma anche dei telespettatori. T</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="3" language_code="ita">
+        <text>re giocatori - amici, colleghi o parenti - si sfidano sulla loro capacità di indovinare, formare, completare e ordinare parole e "catene" di vocaboli. Sarà, soprattutto, decisiva la loro capacità di capirsi al volo nel gioco "intesa vincente" che</text>
+      </extended_event_descriptor>
+      <extended_event_descriptor descriptor_number="1" last_descriptor_number="3" language_code="ita">
+        <text> stabilisce i campioni della puntata. Solo loro avranno accesso al gioco finale e alla possibilità di aggiudicarsi il montepremi accumulato. - Conduce Marco Liorni
+Un programma di Tonino Quinti, Francesco Ricchi, Stefano Santucci
+E di Ivo Pagliar</text>
+      </extended_event_descriptor>
+      <extended_event_descriptor descriptor_number="2" last_descriptor_number="3" language_code="ita">
+        <text>ulo, Simona Riccardi, Simona Forlini, Christian Monaco
+Scritto con Giancarlo Antonini, Alessandro Venditti, Francesco Lancia, Marzia Fiori Andreoni, Paolo Fichera, Alessandra Pagliacci, Giusy Andreano, Flavio Grasso, Beatrice Moscatelli, Silvana </text>
+      </extended_event_descriptor>
+      <extended_event_descriptor descriptor_number="3" last_descriptor_number="3" language_code="ita">
+        <text>Calcagno, Gianluca Falessi
+Produttore esecutivo Simona Fuso
+Regia di Amedeo Gianfrotta
+Prodotto in collaborazione con Sony Pictures Entertainment Italia S.r.l.</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF920" start_time="2023-07-04 18:00:00" duration="00:30:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>TELEGIORNALE</event_name>
+        <text></text>
+      </short_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="9" current="true" actual="true" service_id="0x0D4A" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF961" start_time="2023-07-04 16:58:00" duration="00:02:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Meteo 2</event_name>
+        <text></text>
+      </short_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF962" start_time="2023-07-04 17:00:00" duration="00:40:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Hawaii Five-0 Un vecchio caso irrisolto</event_name>
+        <text>TELEFILM - Steve ritrova un vecchio caso irrisolto del detective Chang Apana, una leggenda della Polizia di Honolulu. Esaminando le carte, si addormenta ed in sogno trova la soluzione....</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>Con Alex O'Loughlin, Scott Caan, Daniel Dae Kim</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="28" current="true" actual="true" service_id="0x0D4B" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF9A9" start_time="2023-07-04 15:45:00" duration="01:15:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Geo Magazine</event_name>
+        <text>DOCUMENTARIO - Da fine maggio ai primi di settembre torna "Geo Magazine", lo storico appuntamento estivo dei pomeriggi di Raitre: dalla cineteca di "Geo", una ragionata selezione dei migliori documentari prodotti e acquistati, quelli</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>che ci piace rivedere o quelli che ci siamo persi, girati in Italia e nel mondo. - un programma di Marco Castellazzi  Rosario Cutolo  
+Produttore esecutivo Fausta Vannutelli
+A cura di Silvia Fraticelli</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF9AA" start_time="2023-07-04 17:00:00" duration="00:30:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>TG3</event_name>
+        <text>NOTIZIARIO.</text>
+      </short_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="10" current="true" actual="true" service_id="0x0D4D" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0x0DD9" start_time="2023-07-04 16:15:22" duration="00:48:36" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Il Commissario Rex VI - Il killer della </event_name>
+        <text>Il Commissario Rex VI - Il killer della Luna piena - SERIE TV - Nelle notti di luna piena si aggira un killer che firma i suoi delitti asportando una ciocca di capelli alle sue vittime...Alle ore 18,35 Rai</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>News. - di aavv con G.Burkhard H.Weixelbraun   2000 GER</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0x0DDA" start_time="2023-07-04 17:03:58" duration="00:44:17" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Seal Team III ep.19</event_name>
+        <text>SERIE TV - Il Team Bravo è un'unità d'élite dei Navy SEAL. Impegnati in operazioni militari d'urgenza in giro per il mondo, i componenti del Team hanno di conseguenza una difficile vita familiare..</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>di aavv con D.Boreanaz  M.Thieriot 2019 USA - PROGRAMMA ADATTO AD UNA VISONE CONGIUNTA CON UN ADULTO</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="21" current="true" actual="true" service_id="0x0D4E" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0x0EBB" start_time="2023-07-04 15:45:00" duration="01:40:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>Indio Black, sai che ti dico: sei un gra</event_name>
+        <text>Indio Black, sai che ti dico: sei un gran figlio di... - FILM WESTERN - Messico, 1864. Il pistolero Sabata, assoldato da un manipolo di rivoluzionari, progetta l'agguato a un vagone pieno d'oro.
+Alle ore </text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>18:35 Rai News - di Frank Kramer con Yul Brynner, Dean Reed, Nieves Navarro 1970 ITA</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0x0EBC" start_time="2023-07-04 17:25:00" duration="01:48:24" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>L'amore è servito</event_name>
+        <text>FILM COMMEDIA - Felix, popolare chef televisivo, coinvolge Frieda in un increscioso incidente. Per compensarla e uscire dai guai si offre di aiutarla con la fattoria, ma la stampa scandalistica si mette sulle loro tracce..</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>di Marcus Ulbricht con Muriel Baumeister, Bernhard Schir, Roman Knizka 2011 GER</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="26" current="true" actual="true" service_id="0x0D4F" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+  </EIT>
+  <EIT type="pf" version="22" current="true" actual="true" service_id="0x0D71" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF795" start_time="2023-07-04 16:36:59" duration="00:23:01" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>segue ITALIA SOTTO INCHIESTA</event_name>
+        <text>&gt;&gt;  ITALIA SOTTO INCHIESTA</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>&gt;&gt;  ITALIA SOTTO INCHIESTA</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF796" start_time="2023-07-04 17:00:00" duration="00:20:00" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>GR 1</event_name>
+        <text>GR 1</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>GR 1</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+  <EIT type="pf" version="10" current="true" actual="true" service_id="0x0D72" transport_stream_id="0x1450" original_network_id="0x013E" last_table_id="0x4E">
+    <metadata PID="18"/>
+    <event event_id="0xF875" start_time="2023-07-04 16:00:00" duration="01:30:00" running_status="running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>CATERESTATE</event_name>
+        <text>CaterEstate
+Con Diletta Parlangeli e Saverio Raimondo
+Regia di Savino Bonito
+A cura di Maria Lucia Schito
+</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>CaterEstate
+Con Diletta Parlangeli e Saverio Raimondo
+Regia di Savino Bonito
+A cura di Maria Lucia Schito
+</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+    <event event_id="0xF876" start_time="2023-07-04 17:30:00" duration="00:13:30" running_status="not-running" CA_mode="false">
+      <short_event_descriptor language_code="ita">
+        <event_name>GR 2</event_name>
+        <text>GR 2</text>
+      </short_event_descriptor>
+      <extended_event_descriptor descriptor_number="0" last_descriptor_number="0" language_code="ita">
+        <text>GR 2</text>
+      </extended_event_descriptor>
+      <parental_rating_descriptor>
+        <country country_code="ITA" rating="0x00"/>
+      </parental_rating_descriptor>
+    </event>
+  </EIT>
+</tsduck>

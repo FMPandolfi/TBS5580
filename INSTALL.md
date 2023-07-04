@@ -73,4 +73,8 @@ dvbsnoop -s sec -spiderpid -frontend /dev/dvb/adapter0/frontend1 -ph 3 -N 1 0
 - **"Spider scan" from SDT pid**\
 dvbsnoop -s sec -spiderpid -frontend /dev/dvb/adapter0/frontend1 -ph 3 -N 1 17
 
+## TSDuck installation
+
+### TSDuck usage examples
+tsp -I dvb --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2
 

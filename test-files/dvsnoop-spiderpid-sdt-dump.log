@@ -1,0 +1,386 @@
+dvbsnoop V1.4.50 -- http://dvbsnoop.sourceforge.net/ 
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 17 (0x0011), Length: 594 (0x0252)
+Time received: Tue 2023-07-04  14:31:53.885
+------------------------------------------------------------
+B.O.P....>..I...H...Rai.Rai 1 HD.J...H...Rai.Rai 2 HD.K...H...Rai.Rai 3 HD.M...H....Rai 4 HD.N...H...Rai.Rai Movie HD.O...H...Rai.Rai 4K.q...H...Rai.Rai Radio 1.r...H...Rai.Rai Radio 2.s...H...Rai.Rai Radio 3.t...H...Rai.Rai Radio3 Classica.u...H...Rai.Rai GR Parlamento.v...H...Rai.Rai Isoradio.w...H...Rai.Rai Radio Techete'.x...H...Rai.Rai Radio Live Napoli.y...H...Rai.Rai Radio Kids.z...H...Rai.No Name Radio.{.. H...Rai.Rai Radio Tutta Italiana.|..&H$.....Rai..L.Ora della Venezia Giulia.}...H...Rai.Rai Radio1 Sport.~...H...Rai.Rai Radio Slovenia.... H......Rai....Rai Radio S.dtirol.F4.
+
+PID:  17 (0x0011)  [= assigned for: DVB Service Description Table (SDT), Bouquet Association Table (BAT)]
+
+Guess table from table id...
+SDT-decoding....
+Table_ID: 66 (0x42)  [= Service Description Table (SDT) - actual transport stream]
+section_syntax_indicator: 1 (0x01)
+reserved_1: 1 (0x01)
+reserved_2: 3 (0x03)
+Section_length: 591 (0x024f)
+Transport_Stream_ID: 5200 (0x1450)
+reserved_3: 3 (0x03)
+Version_number: 4 (0x04)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+Original_network_ID:  318 (0x013e)  [= Eutelsat Satellite System 13°E | European Telecommunications Satellite Organization]
+reserved_4: 255 (0xff)
+
+
+    Service_id: 3401 (0x0d49)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 1 (0x01)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 16 (0x0010)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 14 (0x0e)
+            service_type: 25 (0x19)  [= advanced codec HD digital television service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 8 (0x08)
+            Service_name: "Rai 1 HD"  -- Charset: Latin alphabet
+
+
+    Service_id: 3402 (0x0d4a)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 1 (0x01)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 16 (0x0010)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 14 (0x0e)
+            service_type: 25 (0x19)  [= advanced codec HD digital television service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 8 (0x08)
+            Service_name: "Rai 2 HD"  -- Charset: Latin alphabet
+
+
+    Service_id: 3403 (0x0d4b)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 1 (0x01)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 16 (0x0010)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 14 (0x0e)
+            service_type: 25 (0x19)  [= advanced codec HD digital television service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 8 (0x08)
+            Service_name: "Rai 3 HD"  -- Charset: Latin alphabet
+
+
+    Service_id: 3405 (0x0d4d)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 1 (0x01)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 13 (0x000d)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 11 (0x0b)
+            service_type: 25 (0x19)  [= advanced codec HD digital television service]
+            service_provider_name_length: 0 (0x00)
+            service_provider_name: ""
+            service_name_length: 8 (0x08)
+            Service_name: "Rai 4 HD"  -- Charset: Latin alphabet
+
+
+    Service_id: 3406 (0x0d4e)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 1 (0x01)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 20 (0x0014)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 18 (0x12)
+            service_type: 25 (0x19)  [= advanced codec HD digital television service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 12 (0x0c)
+            Service_name: "Rai Movie HD"  -- Charset: Latin alphabet
+
+
+    Service_id: 3407 (0x0d4f)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 1 (0x01)  [= streams [partially] CA controlled]
+    Descriptors_loop_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 12 (0x0c)
+            service_type: 31 (0x1f)  [= reserved]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 6 (0x06)
+            Service_name: "Rai 4K"  -- Charset: Latin alphabet
+
+
+    Service_id: 3441 (0x0d71)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 19 (0x0013)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 17 (0x11)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 11 (0x0b)
+            Service_name: "Rai Radio 1"  -- Charset: Latin alphabet
+
+
+    Service_id: 3442 (0x0d72)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 19 (0x0013)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 17 (0x11)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 11 (0x0b)
+            Service_name: "Rai Radio 2"  -- Charset: Latin alphabet
+
+
+    Service_id: 3443 (0x0d73)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 19 (0x0013)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 17 (0x11)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 11 (0x0b)
+            Service_name: "Rai Radio 3"  -- Charset: Latin alphabet
+
+
+    Service_id: 3444 (0x0d74)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 27 (0x001b)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 25 (0x19)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 19 (0x13)
+            Service_name: "Rai Radio3 Classica"  -- Charset: Latin alphabet
+
+
+    Service_id: 3445 (0x0d75)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 25 (0x0019)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 23 (0x17)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 17 (0x11)
+            Service_name: "Rai GR Parlamento"  -- Charset: Latin alphabet
+
+
+    Service_id: 3446 (0x0d76)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 20 (0x0014)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 18 (0x12)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 12 (0x0c)
+            Service_name: "Rai Isoradio"  -- Charset: Latin alphabet
+
+
+    Service_id: 3447 (0x0d77)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 26 (0x001a)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 24 (0x18)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 18 (0x12)
+            Service_name: "Rai Radio Techete'"  -- Charset: Latin alphabet
+
+
+    Service_id: 3448 (0x0d78)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 29 (0x001d)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 27 (0x1b)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 21 (0x15)
+            Service_name: "Rai Radio Live Napoli"  -- Charset: Latin alphabet
+
+
+    Service_id: 3449 (0x0d79)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 22 (0x0016)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 20 (0x14)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 14 (0x0e)
+            Service_name: "Rai Radio Kids"  -- Charset: Latin alphabet
+
+
+    Service_id: 3450 (0x0d7a)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 21 (0x0015)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 19 (0x13)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 13 (0x0d)
+            Service_name: "No Name Radio"  -- Charset: Latin alphabet
+
+
+    Service_id: 3451 (0x0d7b)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 1 (0x01)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 32 (0x0020)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 30 (0x1e)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 24 (0x18)
+            Service_name: "Rai Radio Tutta Italiana"  -- Charset: Latin alphabet
+
+
+    Service_id: 3452 (0x0d7c)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 38 (0x0026)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 36 (0x24)
+            service_type: 10 (0x0a)  [= advanced codec digital radio sound service]
+            service_provider_name_length: 6 (0x06)
+            service_provider_name: "..Rai"  -- Charset: ISO/IEC 8859  special table 
+            service_name_length: 27 (0x1b)
+            Service_name: "L¢Ora della Venezia Giulia"  -- Charset: Latin/Greek alphabet
+
+
+    Service_id: 3453 (0x0d7d)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 24 (0x0018)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 22 (0x16)
+            service_type: 2 (0x02)  [= digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 16 (0x10)
+            Service_name: "Rai Radio1 Sport"  -- Charset: Latin alphabet
+
+
+    Service_id: 3454 (0x0d7e)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 26 (0x001a)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 24 (0x18)
+            service_type: 10 (0x0a)  [= advanced codec digital radio sound service]
+            service_provider_name_length: 3 (0x03)
+            service_provider_name: "Rai"  -- Charset: Latin alphabet
+            service_name_length: 18 (0x12)
+            Service_name: "Rai Radio Slovenia"  -- Charset: Latin alphabet
+
+
+    Service_id: 3455 (0x0d7f)  [=  --> refers to PMT program_number]
+    reserved_1: 63 (0x3f)
+    EIT_schedule_flag: 0 (0x00)
+    EIT_present_following_flag: 0 (0x00)
+    Running_status: 4 (0x04)  [= running]
+    Free_CA_mode: 0 (0x00)  [= unscrambled]
+    Descriptors_loop_length: 32 (0x0020)
+
+            DVB-DescriptorTag: 72 (0x48)  [= service_descriptor]
+            descriptor_length: 30 (0x1e)
+            service_type: 10 (0x0a)  [= advanced codec digital radio sound service]
+            service_provider_name_length: 6 (0x06)
+            service_provider_name: "..Rai"  -- Charset: ISO/IEC 8859  special table 
+            service_name_length: 21 (0x15)
+            Service_name: "..Rai Radio Südtirol"  -- Charset: ISO/IEC 8859  special table 
+
+CRC: 3443930285 (0xcd4634ad)
+==========================================================
+

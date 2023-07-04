@@ -1,0 +1,3271 @@
+dvbsnoop V1.4.50 -- http://dvbsnoop.sourceforge.net/ 
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 0 (0x0000), Length: 100 (0x0064)
+Time received: Tue 2023-07-04  12:22:03.346
+------------------------------------------------------------
+..a.P........I.M.J.N.K.O.M.Q.N.R.O.S.q.a.r.b.s.c.t.d.u.e.v.f.w.g.x.h.y.i.z.j.{.k.|.l.}.m.~.n...ox..z
+
+PID:  0 (0x0000)  [= assigned for: ISO 13818-1 Program Association Table (PAT)]
+
+Guess table from table id...
+PAT-decoding....
+Table_ID: 0 (0x00)  [= Program Association Table (PAT)]
+section_syntax_indicator: 1 (0x01)
+(fixed): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 97 (0x0061)
+Transport_Stream_ID: 5200 (0x1450)
+reserved_2: 3 (0x03)
+Version_number: 28 (0x1c)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+
+    Program_number: 0 (0x0000)
+    reserved: 7 (0x07)
+    Network_PID: 16 (0x0010)
+
+    Program_number: 3401 (0x0d49)
+    reserved: 7 (0x07)
+    Program_map_PID: 1101 (0x044d)
+
+    Program_number: 3402 (0x0d4a)
+    reserved: 7 (0x07)
+    Program_map_PID: 1102 (0x044e)
+
+    Program_number: 3403 (0x0d4b)
+    reserved: 7 (0x07)
+    Program_map_PID: 1103 (0x044f)
+
+    Program_number: 3405 (0x0d4d)
+    reserved: 7 (0x07)
+    Program_map_PID: 1105 (0x0451)
+
+    Program_number: 3406 (0x0d4e)
+    reserved: 7 (0x07)
+    Program_map_PID: 1106 (0x0452)
+
+    Program_number: 3407 (0x0d4f)
+    reserved: 7 (0x07)
+    Program_map_PID: 1107 (0x0453)
+
+    Program_number: 3441 (0x0d71)
+    reserved: 7 (0x07)
+    Program_map_PID: 1121 (0x0461)
+
+    Program_number: 3442 (0x0d72)
+    reserved: 7 (0x07)
+    Program_map_PID: 1122 (0x0462)
+
+    Program_number: 3443 (0x0d73)
+    reserved: 7 (0x07)
+    Program_map_PID: 1123 (0x0463)
+
+    Program_number: 3444 (0x0d74)
+    reserved: 7 (0x07)
+    Program_map_PID: 1124 (0x0464)
+
+    Program_number: 3445 (0x0d75)
+    reserved: 7 (0x07)
+    Program_map_PID: 1125 (0x0465)
+
+    Program_number: 3446 (0x0d76)
+    reserved: 7 (0x07)
+    Program_map_PID: 1126 (0x0466)
+
+    Program_number: 3447 (0x0d77)
+    reserved: 7 (0x07)
+    Program_map_PID: 1127 (0x0467)
+
+    Program_number: 3448 (0x0d78)
+    reserved: 7 (0x07)
+    Program_map_PID: 1128 (0x0468)
+
+    Program_number: 3449 (0x0d79)
+    reserved: 7 (0x07)
+    Program_map_PID: 1129 (0x0469)
+
+    Program_number: 3450 (0x0d7a)
+    reserved: 7 (0x07)
+    Program_map_PID: 1130 (0x046a)
+
+    Program_number: 3451 (0x0d7b)
+    reserved: 7 (0x07)
+    Program_map_PID: 1131 (0x046b)
+
+    Program_number: 3452 (0x0d7c)
+    reserved: 7 (0x07)
+    Program_map_PID: 1132 (0x046c)
+
+    Program_number: 3453 (0x0d7d)
+    reserved: 7 (0x07)
+    Program_map_PID: 1133 (0x046d)
+
+    Program_number: 3454 (0x0d7e)
+    reserved: 7 (0x07)
+    Program_map_PID: 1134 (0x046e)
+
+    Program_number: 3455 (0x0d7f)
+    reserved: 7 (0x07)
+    Program_map_PID: 1135 (0x046f)
+
+CRC: 2022803322 (0x7891877a)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 16 (0x0010), Length: 105 (0x0069)
+Time received: Tue 2023-07-04  12:22:05.934
+------------------------------------------------------------
+@.f.>.....@.RAI.T.P.>.NC...e..0.....A?.I..J..K..M..N..O..q..r..s..t..u..v..w..x..y..z..{..|..}..~....wvC|
+
+PID:  16 (0x0010)  [= assigned for: DVB Network Information Table (NIT), Stuffing Table (ST)]
+
+Guess table from table id...
+NIT-decoding....
+Table_ID: 64 (0x40)  [= Network Information Table (NIT) - actual network]
+section_syntax_indicator: 1 (0x01)
+reserved_1: 1 (0x01)
+reserved_2: 3 (0x03)
+Section_length: 102 (0x0066)
+Network_ID: 318 (0x013e)  [= Eutelsat Satellite System 13.0E / Satellite / ETSO]
+reserved_3: 3 (0x03)
+Version_number: 3 (0x03)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_4: 15 (0x0f)
+Network_descriptor_length: 5 (0x0005)
+
+        DVB-DescriptorTag: 64 (0x40)  [= network_name_descriptor]
+        descriptor_length: 3 (0x03)
+        Network_name: "RAI"  -- Charset: Latin alphabet
+
+
+reserved_5: 15 (0x0f)
+Transport_stream_loop_length: 84 (0x0054)
+
+    Transport_stream_ID: 5200 (0x1450)
+    Original_network_ID: 318 (0x013e)  [= Eutelsat Satellite System 13°E | European Telecommunications Satellite Organization]
+    reserved_1: 15 (0x0f)
+    Transport_descriptor_length: 78 (0x004e)
+
+            DVB-DescriptorTag: 67 (0x43)  [= satellite_delivery_system_descriptor]
+            descriptor_length: 11 (0x0b)
+            Frequency: 18310532 (=  11.76584 GHz)
+            Orbital_position: 304 (=  13.0)
+            West_East_flag: 1 (0x01)  [= EAST]
+            Polarisation: 1 (0x01)  [= linear - vertical]
+            Kind: 1 (0x01)  [= DVB-S2]
+            Roll Off Faktor: 1 (0x01)  [= Alpha 0.25]
+            Modulation_type: 2 (0x02)  [= 8PSK]
+            Symbol_rate: 2723840 (=  29.9000)
+            FEC_inner: 3 (0x03)  [= 3/4 conv. code rate]
+
+            DVB-DescriptorTag: 65 (0x41)  [= service_list_descriptor]
+            descriptor_length: 63 (0x3f)
+               service_ID: 3401 (0x0d49)[ --> refers to PMT program_number]
+               service_type: 25 (0x19)  [= advanced codec HD digital television service]
+
+               service_ID: 3402 (0x0d4a)[ --> refers to PMT program_number]
+               service_type: 25 (0x19)  [= advanced codec HD digital television service]
+
+               service_ID: 3403 (0x0d4b)[ --> refers to PMT program_number]
+               service_type: 25 (0x19)  [= advanced codec HD digital television service]
+
+               service_ID: 3405 (0x0d4d)[ --> refers to PMT program_number]
+               service_type: 25 (0x19)  [= advanced codec HD digital television service]
+
+               service_ID: 3406 (0x0d4e)[ --> refers to PMT program_number]
+               service_type: 25 (0x19)  [= advanced codec HD digital television service]
+
+               service_ID: 3407 (0x0d4f)[ --> refers to PMT program_number]
+               service_type: 31 (0x1f)  [= reserved]
+
+               service_ID: 3441 (0x0d71)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3442 (0x0d72)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3443 (0x0d73)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3444 (0x0d74)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3445 (0x0d75)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3446 (0x0d76)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3447 (0x0d77)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3448 (0x0d78)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3449 (0x0d79)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3450 (0x0d7a)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3451 (0x0d7b)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3452 (0x0d7c)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3453 (0x0d7d)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3454 (0x0d7e)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+               service_ID: 3455 (0x0d7f)[ --> refers to PMT program_number]
+               service_type: 2 (0x02)  [= digital radio sound service]
+
+
+CRC: 2004239228 (0x7776437c)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1101 (0x044d), Length: 175 (0x00af)
+Time received: Tue 2023-07-04  12:22:05.946
+------------------------------------------------------------
+....I............*...(.@..?..Y....ita...g..c....oth.j....m....eng...g..w....oth...g..7..V.ita..ita.weng.x.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2....
+
+PID:  1101 (0x044d)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 172 (0x00ac)
+Program_number: 3401 (0x0d49)
+reserved_2: 3 (0x03)
+Version_number: 22 (0x16)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 501 (0x01f5)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 27 (0x1b)  [= AVC video stream as defined in ITU-T Rec. H.264 | ISO/IEC 14496-10 Video]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 501 (0x01f5)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 10 (0x000a)
+
+            MPEG-DescriptorTag: 42 (0x2a)  [= AVC_timing_and_HRD_descriptor]
+            descriptor_length: 2 (0x02)
+               ..
+
+            MPEG-DescriptorTag: 40 (0x28)  [= AVC_video_descriptor]
+            descriptor_length: 4 (0x04)
+               @..?
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 601 (0x0259)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 611 (0x0263)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 106 (0x6a)  [= AC3_descriptor]
+            descriptor_length: 1 (0x01)
+            component_type_flag: 0 (0x00)
+            bsid_flag: 0 (0x00)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            reserved: 0 (0x00)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 621 (0x026d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  eng
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 631 (0x0277)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 567 (0x0237)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 17 (0x0011)
+
+            DVB-DescriptorTag: 86 (0x56)  [= teletext_descriptor]
+            descriptor_length: 15 (0x0f)
+               ISO639_language_code:  ita
+               Teletext_type: 1 (0x01)  [= initial teletext page]
+               Teletext_magazine_number: 1 (0x01)
+               Teletext_page_number: 0 (0x00)
+
+               ISO639_language_code:  ita
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 119 (0x77)
+
+               ISO639_language_code:  eng
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 120 (0x78)
+
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 400811908 (0x17e3e784)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1102 (0x044e), Length: 359 (0x0167)
+Time received: Tue 2023-07-04  12:22:05.984
+------------------------------------------------------------
+..d.J...........8*...(.@..?...V.......j.0.........B......j..0...=.....>.2..Z.7..ita...g...V.......j.0.........B......j..0...=.....>.2..d.7..oth.j.....V.......j.0.........B......j..0...=.....>.2..n.7..eng...g...V.......j.0.........B......j..0...=.....>.2..8..V.ita..ita.weng.x..x....oth...g.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2..^.
+
+PID:  1102 (0x044e)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 356 (0x0164)
+Program_number: 3402 (0x0d4a)
+reserved_2: 3 (0x03)
+Version_number: 2 (0x02)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 502 (0x01f6)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 27 (0x1b)  [= AVC video stream as defined in ITU-T Rec. H.264 | ISO/IEC 14496-10 Video]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 502 (0x01f6)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 56 (0x0038)
+
+            MPEG-DescriptorTag: 42 (0x2a)  [= AVC_timing_and_HRD_descriptor]
+            descriptor_length: 2 (0x02)
+               ..
+
+            MPEG-DescriptorTag: 40 (0x28)  [= AVC_video_descriptor]
+            descriptor_length: 4 (0x04)
+               @..?
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4002 (0x0fa2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 17 (0x11)
+            CA_system_ID: 256 (0x0100)  [= Canal Plus (Seca/MediaGuard)]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               .0.........B.
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 7 (0x07)
+            CA_system_ID: 6171 (0x181b)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               ..0
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4302 (0x10ce)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4402 (0x1132)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 602 (0x025a)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 55 (0x0037)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4002 (0x0fa2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 17 (0x11)
+            CA_system_ID: 256 (0x0100)  [= Canal Plus (Seca/MediaGuard)]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               .0.........B.
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 7 (0x07)
+            CA_system_ID: 6171 (0x181b)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               ..0
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4302 (0x10ce)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4402 (0x1132)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 612 (0x0264)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 55 (0x0037)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 106 (0x6a)  [= AC3_descriptor]
+            descriptor_length: 1 (0x01)
+            component_type_flag: 0 (0x00)
+            bsid_flag: 0 (0x00)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            reserved: 0 (0x00)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4002 (0x0fa2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 17 (0x11)
+            CA_system_ID: 256 (0x0100)  [= Canal Plus (Seca/MediaGuard)]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               .0.........B.
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 7 (0x07)
+            CA_system_ID: 6171 (0x181b)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               ..0
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4302 (0x10ce)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4402 (0x1132)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 622 (0x026e)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 55 (0x0037)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  eng
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4002 (0x0fa2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 17 (0x11)
+            CA_system_ID: 256 (0x0100)  [= Canal Plus (Seca/MediaGuard)]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               .0.........B.
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 7 (0x07)
+            CA_system_ID: 6171 (0x181b)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4202 (0x106a)
+            Private Data:
+               ..0
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4302 (0x10ce)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4402 (0x1132)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 568 (0x0238)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 17 (0x0011)
+
+            DVB-DescriptorTag: 86 (0x56)  [= teletext_descriptor]
+            descriptor_length: 15 (0x0f)
+               ISO639_language_code:  ita
+               Teletext_type: 1 (0x01)  [= initial teletext page]
+               Teletext_magazine_number: 1 (0x01)
+               Teletext_page_number: 0 (0x00)
+
+               ISO639_language_code:  ita
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 119 (0x77)
+
+               ISO639_language_code:  eng
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 120 (0x78)
+
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 632 (0x0278)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 3216924337 (0xbfbe5eb1)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1103 (0x044f), Length: 147 (0x0093)
+Time received: Tue 2023-07-04  12:22:06.045
+------------------------------------------------------------
+....K............*...(.@..?..[....ita...g..o....oth...g..9..V.ita..ita.weng.x.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2%...
+
+PID:  1103 (0x044f)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 144 (0x0090)
+Program_number: 3403 (0x0d4b)
+reserved_2: 3 (0x03)
+Version_number: 10 (0x0a)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 503 (0x01f7)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 27 (0x1b)  [= AVC video stream as defined in ITU-T Rec. H.264 | ISO/IEC 14496-10 Video]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 503 (0x01f7)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 10 (0x000a)
+
+            MPEG-DescriptorTag: 42 (0x2a)  [= AVC_timing_and_HRD_descriptor]
+            descriptor_length: 2 (0x02)
+               ..
+
+            MPEG-DescriptorTag: 40 (0x28)  [= AVC_video_descriptor]
+            descriptor_length: 4 (0x04)
+               @..?
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 603 (0x025b)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 623 (0x026f)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 569 (0x0239)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 17 (0x0011)
+
+            DVB-DescriptorTag: 86 (0x56)  [= teletext_descriptor]
+            descriptor_length: 15 (0x0f)
+               ISO639_language_code:  ita
+               Teletext_type: 1 (0x01)  [= initial teletext page]
+               Teletext_magazine_number: 1 (0x01)
+               Teletext_page_number: 0 (0x00)
+
+               ISO639_language_code:  ita
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 119 (0x77)
+
+               ISO639_language_code:  eng
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 120 (0x78)
+
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 629521610 (0x2585bcca)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1105 (0x0451), Length: 233 (0x00e9)
+Time received: Tue 2023-07-04  12:22:06.071
+------------------------------------------------------------
+....M............*...(.@..?...V.....=.....>.4..]....ita...g...V.....=.....>.4..g....oth.j.....V.....=.....>.4..q....eng...g...V.....=.....>.4..G..V.ita..ita.weng.x.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2.9<]
+
+PID:  1105 (0x0451)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 230 (0x00e6)
+Program_number: 3405 (0x0d4d)
+reserved_2: 3 (0x03)
+Version_number: 3 (0x03)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 505 (0x01f9)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 27 (0x1b)  [= AVC video stream as defined in ITU-T Rec. H.264 | ISO/IEC 14496-10 Video]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 505 (0x01f9)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 28 (0x001c)
+
+            MPEG-DescriptorTag: 42 (0x2a)  [= AVC_timing_and_HRD_descriptor]
+            descriptor_length: 2 (0x02)
+               ..
+
+            MPEG-DescriptorTag: 40 (0x28)  [= AVC_video_descriptor]
+            descriptor_length: 4 (0x04)
+               @..?
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4004 (0x0fa4)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4304 (0x10d0)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4404 (0x1134)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 605 (0x025d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4004 (0x0fa4)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4304 (0x10d0)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4404 (0x1134)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 615 (0x0267)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 106 (0x6a)  [= AC3_descriptor]
+            descriptor_length: 1 (0x01)
+            component_type_flag: 0 (0x00)
+            bsid_flag: 0 (0x00)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            reserved: 0 (0x00)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4004 (0x0fa4)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4304 (0x10d0)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4404 (0x1134)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 625 (0x0271)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  eng
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4004 (0x0fa4)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4304 (0x10d0)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4404 (0x1134)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 583 (0x0247)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 17 (0x0011)
+
+            DVB-DescriptorTag: 86 (0x56)  [= teletext_descriptor]
+            descriptor_length: 15 (0x0f)
+               ISO639_language_code:  ita
+               Teletext_type: 1 (0x01)  [= initial teletext page]
+               Teletext_magazine_number: 1 (0x01)
+               Teletext_page_number: 0 (0x00)
+
+               ISO639_language_code:  ita
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 119 (0x77)
+
+               ISO639_language_code:  eng
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 120 (0x78)
+
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 356072541 (0x15393c5d)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1106 (0x0452), Length: 233 (0x00e9)
+Time received: Tue 2023-07-04  12:22:06.084
+------------------------------------------------------------
+....N............*...(.@..?...V.....=.....>.6..^....ita...g...V.....=.....>.6..h....oth.j.....V.....=.....>.6..r....eng...g...V.....=.....>.6..J..V.ita..ita.weng.x.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2l...
+
+PID:  1106 (0x0452)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 230 (0x00e6)
+Program_number: 3406 (0x0d4e)
+reserved_2: 3 (0x03)
+Version_number: 5 (0x05)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 506 (0x01fa)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 27 (0x1b)  [= AVC video stream as defined in ITU-T Rec. H.264 | ISO/IEC 14496-10 Video]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 506 (0x01fa)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 28 (0x001c)
+
+            MPEG-DescriptorTag: 42 (0x2a)  [= AVC_timing_and_HRD_descriptor]
+            descriptor_length: 2 (0x02)
+               ..
+
+            MPEG-DescriptorTag: 40 (0x28)  [= AVC_video_descriptor]
+            descriptor_length: 4 (0x04)
+               @..?
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4006 (0x0fa6)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4306 (0x10d2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4406 (0x1136)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 606 (0x025e)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4006 (0x0fa6)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4306 (0x10d2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4406 (0x1136)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 616 (0x0268)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  oth
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 106 (0x6a)  [= AC3_descriptor]
+            descriptor_length: 1 (0x01)
+            component_type_flag: 0 (0x00)
+            bsid_flag: 0 (0x00)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            reserved: 0 (0x00)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4006 (0x0fa6)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4306 (0x10d2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4406 (0x1136)
+
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 626 (0x0272)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 27 (0x001b)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  eng
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4006 (0x0fa6)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6205 (0x183d)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4306 (0x10d2)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4406 (0x1136)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 586 (0x024a)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 17 (0x0011)
+
+            DVB-DescriptorTag: 86 (0x56)  [= teletext_descriptor]
+            descriptor_length: 15 (0x0f)
+               ISO639_language_code:  ita
+               Teletext_type: 1 (0x01)  [= initial teletext page]
+               Teletext_magazine_number: 1 (0x01)
+               Teletext_page_number: 0 (0x00)
+
+               ISO639_language_code:  ita
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 119 (0x77)
+
+               ISO639_language_code:  eng
+               Teletext_type: 2 (0x02)  [= teletext subtitle page]
+               Teletext_magazine_number: 7 (0x07)
+               Teletext_page_number: 120 (0x78)
+
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 1825042112 (0x6cc7eec0)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1107 (0x0453), Length: 185 (0x00b9)
+Time received: Tue 2023-07-04  12:22:06.093
+------------------------------------------------------------
+....O.......e..$...'8..............?........R.....V.....>.7.._....ita.z.......V.....>.7..i....eng.z.......V.....>.7.....o.........o.........f........A.R.......f..#.....>.R.*.....R.2..?:
+
+PID:  1107 (0x0453)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 182 (0x00b6)
+Program_number: 3407 (0x0d4f)
+reserved_2: 3 (0x03)
+Version_number: 10 (0x0a)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 507 (0x01fb)
+reserved_4: 15 (0x0f)
+Program_info_length: 3 (0x0003)
+
+        DVB-DescriptorTag: 101 (0x65)  [= scrambling_descriptor]
+        descriptor_length: 1 (0x01)
+        scrambling_mode: 2 (0x02)
+
+Stream_type loop: 
+
+    Stream_type: 36 (0x24)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 reserved]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 507 (0x01fb)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 39 (0x0027)
+
+            MPEG-DescriptorTag: 56 (0x38)  [= ITU-T.Rec.H.222.0|ISO/IEC13818-1 Reserved]
+            descriptor_length: 13 (0x0d)
+              ----> ERROR: unimplemented descriptor (mpeg context), Report!
+            Descriptor-data:
+               .............
+
+            MPEG-DescriptorTag: 63 (0x3f)  [= ITU-T.Rec.H.222.0|ISO/IEC13818-1 Reserved]
+            descriptor_length: 7 (0x07)
+              ----> ERROR: unimplemented descriptor (mpeg context), Report!
+            Descriptor-data:
+               .......
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 10 (0x0a)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4007 (0x0fa7)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4407 (0x1137)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 607 (0x025f)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 23 (0x0017)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 122 (0x7a)  [= enhanced_AC-3_descriptor]
+            descriptor_length: 3 (0x03)
+            component_type_flag: 1 (0x01)
+            bsid_flag: 1 (0x01)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            mixinfoexists: 0 (0x00)
+            substream1_flag: 0 (0x00)
+            substream2_flag: 0 (0x00)
+            substream3_flag: 0 (0x00)
+            component_type: 196 (0xc4)  [= TODO:  $$$ - AC3 Component type]
+            bsid: 16 (0x10)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4007 (0x0fa7)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4407 (0x1137)
+
+
+    Stream_type: 6 (0x06)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 PES packets containing private data]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 617 (0x0269)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 23 (0x0017)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  eng
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            DVB-DescriptorTag: 122 (0x7a)  [= enhanced_AC-3_descriptor]
+            descriptor_length: 3 (0x03)
+            component_type_flag: 1 (0x01)
+            bsid_flag: 1 (0x01)
+            mainid_flag: 0 (0x00)
+            asvc_flag: 0 (0x00)
+            mixinfoexists: 0 (0x00)
+            substream1_flag: 0 (0x00)
+            substream2_flag: 0 (0x00)
+            substream3_flag: 0 (0x00)
+            component_type: 196 (0xc4)  [= TODO:  $$$ - AC3 Component type]
+            bsid: 16 (0x10)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6230 (0x1856)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4007 (0x0fa7)
+
+            MPEG-DescriptorTag: 9 (0x09)  [= CA_descriptor]
+            descriptor_length: 4 (0x04)
+            CA_system_ID: 6206 (0x183e)  [= Kudelski SA]
+            reserved: 7 (0x07)
+            CA_PID: 4407 (0x1137)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2011 (0x07db)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 1 (0x0001)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 5 (0x05)  [= ITU-T Rec. H.222.0 | ISO/IEC 13818-1 private sections]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 2012 (0x07dc)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 5 (0x0005)
+
+            DVB-DescriptorTag: 111 (0x6f)  [= application_signalling_descriptor]
+            descriptor_length: 3 (0x03)
+            Application type: 16 (0x0010)
+            reserved: 7 (0x07)
+            AIT version nr.: 0 (0x00)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3011 (0x0bc3)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 240 (0x00f0)  [= MHP Object Carousel]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 65 (0x00000041)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 46 (0x2e)
+
+
+    Stream_type: 11 (0x0b)  [= ISO/IEC 13818-6 DSM-CC U-N Messages]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3012 (0x0bc4)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 14 (0x000e)
+
+            DVB-DescriptorTag: 102 (0x66)  [= data_broadcast_id_descriptor]
+            descriptor_length: 2 (0x02)
+            Data_broadcast_ID: 291 (0x0123)  [= >>ERROR: not (yet) defined... Report!<<]
+
+            MPEG-DescriptorTag: 19 (0x13)  [= carousel_identifier_descriptor]
+            descriptor_length: 5 (0x05)
+            Carousel_id: 62 (0x0000003e)
+            format_id: 0 (0x00)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 42 (0x2a)
+
+
+    Stream_type: 12 (0x0c)  [= ISO/IEC 13818-6 Stream Descriptors]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 3101 (0x0c1d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 3 (0x0003)
+
+            DVB-DescriptorTag: 82 (0x52)  [= stream_identifier_descriptor]
+            descriptor_length: 1 (0x01)
+            component_tag: 50 (0x32)
+
+CRC: 2952675130 (0xaffe3f3a)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1121 (0x0461), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.146
+------------------------------------------------------------
+....q..............ita...g}...
+
+PID:  1121 (0x0461)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3441 (0x0d71)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 641 (0x0281)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 641 (0x0281)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 2110958777 (0x7dd2acb9)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1122 (0x0462), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.221
+------------------------------------------------------------
+....r..............ita...g]...
+
+PID:  1122 (0x0462)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3442 (0x0d72)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 642 (0x0282)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 642 (0x0282)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 1576673269 (0x5dfa1ff5)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1123 (0x0463), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.245
+------------------------------------------------------------
+....s..............ita...g.]z\
+
+PID:  1123 (0x0463)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3443 (0x0d73)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 643 (0x0283)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 643 (0x0283)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 3193797212 (0xbe5d7a5c)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1124 (0x0464), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.296
+------------------------------------------------------------
+....t..............ita...g..ym
+
+PID:  1124 (0x0464)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3444 (0x0d74)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 644 (0x0284)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 644 (0x0284)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 497777005 (0x1dab796d)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1125 (0x0465), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.321
+------------------------------------------------------------
+....u..............ita...g....
+
+PID:  1125 (0x0465)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3445 (0x0d75)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 645 (0x0285)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 645 (0x0285)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 4262206660 (0xfe0c1cc4)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1126 (0x0466), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.346
+------------------------------------------------------------
+....v..............ita...g.$..
+
+PID:  1126 (0x0466)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3446 (0x0d76)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 646 (0x0286)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 646 (0x0286)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 3726946184 (0xde24af88)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1127 (0x0467), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.396
+------------------------------------------------------------
+....w..............ita...g=..!
+
+PID:  1127 (0x0467)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3447 (0x0d77)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 647 (0x0287)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 647 (0x0287)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 1032047137 (0x3d83ca21)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1128 (0x0468), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.459
+------------------------------------------------------------
+....x..............ita...g...]
+
+PID:  1128 (0x0468)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3448 (0x0d78)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 648 (0x0288)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 648 (0x0288)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 2634658909 (0x9d09b45d)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1129 (0x0469), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.496
+------------------------------------------------------------
+....y..............ita...g~...
+
+PID:  1129 (0x0469)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3449 (0x0d79)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 649 (0x0289)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 649 (0x0289)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 2125386228 (0x7eaed1f4)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1130 (0x046a), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.546
+------------------------------------------------------------
+....z..............ita...g^.b.
+
+PID:  1130 (0x046a)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3450 (0x0d7a)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 650 (0x028a)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 650 (0x028a)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 1585865400 (0x5e8662b8)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1131 (0x046b), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.621
+------------------------------------------------------------
+....{..............ita...g.!..
+
+PID:  1131 (0x046b)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3451 (0x0d7b)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 651 (0x028b)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 651 (0x028b)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 3173058321 (0xbd210711)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1132 (0x046c), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.694
+------------------------------------------------------------
+....|..............ita...gRr(.
+
+PID:  1132 (0x046c)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3452 (0x0d7c)
+reserved_2: 3 (0x03)
+Version_number: 3 (0x03)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 8191 (0x1fff)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 652 (0x028c)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 1383213291 (0x527228eb)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1133 (0x046d), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.746
+------------------------------------------------------------
+....}..............ita...g.pa.
+
+PID:  1133 (0x046d)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3453 (0x0d7d)
+reserved_2: 3 (0x03)
+Version_number: 6 (0x06)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 653 (0x028d)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 653 (0x028d)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 4252000649 (0xfd706189)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1134 (0x046e), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:06.794
+------------------------------------------------------------
+....~..............ita...g...,
+
+PID:  1134 (0x046e)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3454 (0x0d7e)
+reserved_2: 3 (0x03)
+Version_number: 4 (0x04)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 654 (0x028e)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 654 (0x028e)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 3338453292 (0xc6fcc12c)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 1135 (0x046f), Length: 30 (0x001e)
+Time received: Tue 2023-07-04  12:22:07.021
+------------------------------------------------------------
+...................ita...g....
+
+PID:  1135 (0x046f)
+
+Guess table from table id...
+PMT-decoding....
+Table_ID: 2 (0x02)  [= Program Map Table (PMT)]
+section_syntax_indicator: 1 (0x01)
+(fixed '0'): 0 (0x00)
+reserved_1: 3 (0x03)
+Section_length: 27 (0x001b)
+Program_number: 3455 (0x0d7f)
+reserved_2: 3 (0x03)
+Version_number: 2 (0x02)
+current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_Section_number: 0 (0x00)
+reserved_3: 7 (0x07)
+PCR PID: 655 (0x028f)
+reserved_4: 15 (0x0f)
+Program_info_length: 0 (0x0000)
+
+Stream_type loop: 
+
+    Stream_type: 3 (0x03)  [= ISO/IEC 11172 Audio]
+    reserved_1: 7 (0x07)
+    Elementary_PID: 655 (0x028f)
+    reserved_2: 15 (0x0f)
+    ES_info_length: 9 (0x0009)
+
+            MPEG-DescriptorTag: 10 (0x0a)  [= ISO_639_language_descriptor]
+            descriptor_length: 4 (0x04)
+               ISO639_language_code:  ita
+               Audio_type: 0 (0x00)  [= undefined]
+
+
+            MPEG-DescriptorTag: 3 (0x03)  [= audio_stream_descriptor]
+            descriptor_length: 1 (0x01)
+            free_format_flag: 0 (0x00)
+            ID: 1 (0x01)
+            layer: 2 (0x02)
+            variable_rate_audio_indicator: 0 (0x00)
+            reserved_1: 7 (0x07)
+
+CRC: 163025086 (0x09b790be)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 2011 (0x07db), Length: 496 (0x01f0)
+Time received: Tue 2023-07-04  12:22:07.003
+------------------------------------------------------------
+t...................k.............ita..Telecomando...delivery=0.8./RemoteControl.LightLauncherLightLauncher.LightLauncher...............c.............ita..RaiPlay.....RaiPlay.rairai.RaiPlay.-...(http://www.replaytvmhp.rai.it/Transport/.......................ita..TGR...B.TGR.it.altran.mhp.player.xletit.altran.mhp.player.xlet.PlayerXlet.-...(http://www.replaytvmhp.rai.it/Transport/.........d.............ita..Rai News.....RaiNews.rairai.RaiNews.-...(http://www.replaytvmhp.rai.it/Transport/....A
+
+PID:  2011 (0x07db)
+
+Guess table from table id...
+AIT-decoding....
+Table_ID: 116 (0x74)  [= MHP- Application Information Table (AIT)]
+Section_syntax_indicator: 1 (0x01)
+reserved_1: 1 (0x01)
+reserved_2: 3 (0x03)
+section_length: 493 (0x01ed)
+test_application_flag: 0 (0x00)
+application_type: 1 (0x0001)  [= DVB-J application]
+reserved_3: 3 (0x03)
+Version_number: 15 (0x0f)
+Current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_section_number: 0 (0x00)
+reserved_4: 15 (0x0f)
+common_descriptors_length: 0 (0x0000)
+
+reserved_5: 15 (0x0f)
+application_loop_length: 480 (0x01e0)
+    organisation_id: 960 (0x000003c0)
+    appliction_id: 1 (0x0001)  [= unsigned applications]
+    application_control_code: 1 (0x01)  [= AUTOSTART]
+    reserved: 15 (0x0f)
+    application_descriptor_loop_length: 107 (0x006b)
+
+        MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+        descriptor_length: 9 (0x09)
+        application_profile_length: 5 (0x05)
+
+            application_profile: 1 (0x0001)
+            version.major: 1 (0x01)
+            version.minor: 0 (0x00)
+            version.micro: 2 (0x02)
+
+        service_bound_flag: 0 (0x00)
+        visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+        reserved: 31 (0x1f)
+        application_priority: 0 (0x00)
+        transport_protocol_label: 1 (0x01)
+
+        MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+        descriptor_length: 16 (0x10)
+            ISO639_language_code:  ita
+            application_name_length: 12 (0x0c)
+            application_name: "Telecomando"  -- Charset: Latin alphabet no. 5
+
+
+        MHP_AIT-DescriptorTag: 3 (0x03)  [= DVB-J application descriptor]
+        descriptor_length: 11 (0x0b)
+            parameter_length: 10 (0x0a)
+            Parameter: "delivery=0"
+
+        MHP_AIT-DescriptorTag: 4 (0x04)  [= DVB-J application location descriptor]
+        descriptor_length: 56 (0x38)
+        base_directory_length: 14 (0x0e)
+        base_directory: "/RemoteControl"
+        classpath_extension_length: 13 (0x0d)
+        classpath_extension: "LightLauncher"
+        initial_class: "LightLauncher.LightLauncher"
+
+        MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+        descriptor_length: 5 (0x05)
+        protocol_id: 1 (0x0001)  [= MHP Object Carousel]
+        transport_protocol_label: 1 (0x01)
+        remote_connection: 0 (0x00)
+        reserved: 127 (0x7f)
+        component_tag: 46 (0x2e)
+
+organisation_id: 960 (0x000003c0)
+appliction_id: 2 (0x0002)  [= unsigned applications]
+application_control_code: 2 (0x02)  [= PRESENT]
+reserved: 15 (0x0f)
+application_descriptor_loop_length: 99 (0x0063)
+
+    MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+    descriptor_length: 9 (0x09)
+    application_profile_length: 5 (0x05)
+
+        application_profile: 1 (0x0001)
+        version.major: 1 (0x01)
+        version.minor: 0 (0x00)
+        version.micro: 2 (0x02)
+
+    service_bound_flag: 0 (0x00)
+    visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+    reserved: 31 (0x1f)
+    application_priority: 0 (0x00)
+    transport_protocol_label: 1 (0x01)
+
+    MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+    descriptor_length: 12 (0x0c)
+        ISO639_language_code:  ita
+        application_name_length: 8 (0x08)
+        application_name: "RaiPlay"  -- Charset: Latin alphabet no. 5
+
+
+    MHP_AIT-DescriptorTag: 3 (0x03)  [= DVB-J application descriptor]
+    descriptor_length: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 4 (0x04)  [= DVB-J application location descriptor]
+    descriptor_length: 23 (0x17)
+    base_directory_length: 7 (0x07)
+    base_directory: "RaiPlay"
+    classpath_extension_length: 3 (0x03)
+    classpath_extension: "rai"
+    initial_class: "rai.RaiPlay"
+
+    MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+    descriptor_length: 45 (0x2d)
+    protocol_id: 3 (0x0003)  [= Transport via HTTP over the interaction channel]
+    transport_protocol_label: 1 (0x01)
+
+    URL_base_length: 40 (0x28)
+    URL_base: "http://www.replaytvmhp.rai.it/Transport/"
+
+    URL_extension_length: 0 (0x00)
+    URL_extension: ""
+
+organisation_id: 960 (0x000003c0)
+appliction_id: 3 (0x0003)  [= unsigned applications]
+application_control_code: 2 (0x02)  [= PRESENT]
+reserved: 15 (0x0f)
+application_descriptor_loop_length: 138 (0x008a)
+
+    MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+    descriptor_length: 9 (0x09)
+    application_profile_length: 5 (0x05)
+
+        application_profile: 1 (0x0001)
+        version.major: 1 (0x01)
+        version.minor: 0 (0x00)
+        version.micro: 2 (0x02)
+
+    service_bound_flag: 1 (0x01)
+    visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+    reserved: 31 (0x1f)
+    application_priority: 0 (0x00)
+    transport_protocol_label: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+    descriptor_length: 8 (0x08)
+        ISO639_language_code:  ita
+        application_name_length: 4 (0x04)
+        application_name: "TGR"  -- Charset: Latin alphabet no. 5
+
+
+    MHP_AIT-DescriptorTag: 3 (0x03)  [= DVB-J application descriptor]
+    descriptor_length: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 4 (0x04)  [= DVB-J application location descriptor]
+    descriptor_length: 66 (0x42)
+    base_directory_length: 3 (0x03)
+    base_directory: "TGR"
+    classpath_extension_length: 25 (0x19)
+    classpath_extension: "it.altran.mhp.player.xlet"
+    initial_class: "it.altran.mhp.player.xlet.PlayerXlet"
+
+    MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+    descriptor_length: 45 (0x2d)
+    protocol_id: 3 (0x0003)  [= Transport via HTTP over the interaction channel]
+    transport_protocol_label: 0 (0x00)
+
+    URL_base_length: 40 (0x28)
+    URL_base: "http://www.replaytvmhp.rai.it/Transport/"
+
+    URL_extension_length: 0 (0x00)
+    URL_extension: ""
+
+organisation_id: 960 (0x000003c0)
+appliction_id: 4 (0x0004)  [= unsigned applications]
+application_control_code: 2 (0x02)  [= PRESENT]
+reserved: 15 (0x0f)
+application_descriptor_loop_length: 100 (0x0064)
+
+    MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+    descriptor_length: 9 (0x09)
+    application_profile_length: 5 (0x05)
+
+        application_profile: 1 (0x0001)
+        version.major: 1 (0x01)
+        version.minor: 0 (0x00)
+        version.micro: 2 (0x02)
+
+    service_bound_flag: 0 (0x00)
+    visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+    reserved: 31 (0x1f)
+    application_priority: 0 (0x00)
+    transport_protocol_label: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+    descriptor_length: 13 (0x0d)
+        ISO639_language_code:  ita
+        application_name_length: 9 (0x09)
+        application_name: "Rai News"  -- Charset: Latin alphabet no. 5
+
+
+    MHP_AIT-DescriptorTag: 3 (0x03)  [= DVB-J application descriptor]
+    descriptor_length: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 4 (0x04)  [= DVB-J application location descriptor]
+    descriptor_length: 23 (0x17)
+    base_directory_length: 7 (0x07)
+    base_directory: "RaiNews"
+    classpath_extension_length: 3 (0x03)
+    classpath_extension: "rai"
+    initial_class: "rai.RaiNews"
+
+    MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+    descriptor_length: 45 (0x2d)
+    protocol_id: 3 (0x0003)  [= Transport via HTTP over the interaction channel]
+    transport_protocol_label: 0 (0x00)
+
+    URL_base_length: 40 (0x28)
+    URL_base: "http://www.replaytvmhp.rai.it/Transport/"
+
+    URL_extension_length: 0 (0x00)
+    URL_extension: ""
+
+CRC: 167828289 (0x0a00db41)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 2012 (0x07dc), Length: 250 (0x00fa)
+Time received: Tue 2023-07-04  12:22:08.003
+------------------------------------------------------------
+t................e..}..............ita..Telecomando HbbTV......*.#RemoteControl/index.html?delivery=0.+...&https://www.raiplay.it/hbbtv/launcher/......f..[.............ita..RaiPlay HbbTV."....https://www.raiplay.it/hbbtv/...RaiPlay2020/index.htmlg...
+
+PID:  2012 (0x07dc)
+
+Guess table from table id...
+AIT-decoding....
+Table_ID: 116 (0x74)  [= MHP- Application Information Table (AIT)]
+Section_syntax_indicator: 1 (0x01)
+reserved_1: 1 (0x01)
+reserved_2: 3 (0x03)
+section_length: 247 (0x00f7)
+test_application_flag: 0 (0x00)
+application_type: 16 (0x0010)  [= subject to registration with DVB]
+reserved_3: 3 (0x03)
+Version_number: 15 (0x0f)
+Current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 0 (0x00)
+Last_section_number: 0 (0x00)
+reserved_4: 15 (0x0f)
+common_descriptors_length: 0 (0x0000)
+
+reserved_5: 15 (0x0f)
+application_loop_length: 234 (0x00ea)
+    organisation_id: 960 (0x000003c0)
+    appliction_id: 101 (0x0065)  [= unsigned applications]
+    application_control_code: 1 (0x01)  [= AUTOSTART]
+    reserved: 15 (0x0f)
+    application_descriptor_loop_length: 125 (0x007d)
+
+        MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+        descriptor_length: 10 (0x0a)
+        application_profile_length: 5 (0x05)
+
+            application_profile: 0 (0x0000)
+            version.major: 1 (0x01)
+            version.minor: 4 (0x04)
+            version.micro: 1 (0x01)
+
+        service_bound_flag: 0 (0x00)
+        visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+        reserved: 31 (0x1f)
+        application_priority: 0 (0x00)
+        transport_protocol_label: 1 (0x01)
+        transport_protocol_label: 2 (0x02)
+
+        MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+        descriptor_length: 22 (0x16)
+            ISO639_language_code:  ita
+            application_name_length: 18 (0x12)
+            application_name: "Telecomando HbbTV"  -- Charset: Latin alphabet no. 5
+
+
+        MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+        descriptor_length: 5 (0x05)
+        protocol_id: 1 (0x0001)  [= MHP Object Carousel]
+        transport_protocol_label: 2 (0x02)
+        remote_connection: 0 (0x00)
+        reserved: 127 (0x7f)
+        component_tag: 42 (0x2a)
+
+        MHP_AIT-DescriptorTag: 21 (0x15)  [= reserved to MHP]
+        descriptor_length: 35 (0x23)
+          ----> ERROR: unimplemented descriptor (MHP_AIT context), Report!
+        Descriptor-data:
+            RemoteControl/index.html?delivery=0
+
+        MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+        descriptor_length: 43 (0x2b)
+        protocol_id: 3 (0x0003)  [= Transport via HTTP over the interaction channel]
+        transport_protocol_label: 1 (0x01)
+
+        URL_base_length: 38 (0x26)
+        URL_base: "https://www.raiplay.it/hbbtv/launcher/"
+
+        URL_extension_length: 0 (0x00)
+        URL_extension: ""
+
+organisation_id: 960 (0x000003c0)
+appliction_id: 102 (0x0066)  [= unsigned applications]
+application_control_code: 2 (0x02)  [= PRESENT]
+reserved: 15 (0x0f)
+application_descriptor_loop_length: 91 (0x005b)
+
+    MHP_AIT-DescriptorTag: 0 (0x00)  [= Application descriptor]
+    descriptor_length: 9 (0x09)
+    application_profile_length: 5 (0x05)
+
+        application_profile: 0 (0x0000)
+        version.major: 1 (0x01)
+        version.minor: 4 (0x04)
+        version.micro: 1 (0x01)
+
+    service_bound_flag: 1 (0x01)
+    visibility: 3 (0x03)  [= application visible to user and appl. listening api]
+    reserved: 31 (0x1f)
+    application_priority: 0 (0x00)
+    transport_protocol_label: 0 (0x00)
+
+    MHP_AIT-DescriptorTag: 1 (0x01)  [= Application name descriptor]
+    descriptor_length: 18 (0x12)
+        ISO639_language_code:  ita
+        application_name_length: 14 (0x0e)
+        application_name: "RaiPlay HbbTV"  -- Charset: Latin alphabet no. 5
+
+
+    MHP_AIT-DescriptorTag: 2 (0x02)  [= Transport protocol descriptor]
+    descriptor_length: 34 (0x22)
+    protocol_id: 3 (0x0003)  [= Transport via HTTP over the interaction channel]
+    transport_protocol_label: 0 (0x00)
+
+    URL_base_length: 29 (0x1d)
+    URL_base: "https://www.raiplay.it/hbbtv/"
+
+    URL_extension_length: 0 (0x00)
+    URL_extension: ""
+
+    MHP_AIT-DescriptorTag: 21 (0x15)  [= reserved to MHP]
+    descriptor_length: 22 (0x16)
+      ----> ERROR: unimplemented descriptor (MHP_AIT context), Report!
+    Descriptor-data:
+        RaiPlay2020/index.html
+
+CRC: 1738208541 (0x679af51d)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 3011 (0x0bc3), Length: 3968 (0x0f80)
+Time received: Tue 2023-07-04  12:22:09.389
+------------------------------------------------------------
+<.}................h.......5p.*.....R..f.b6........y^.Rt...."...{.?.F.....-.Q......5.":=....)o9C..h.0]..]#P...E....l).>n...dM.t..I.;.x..k..&...f,........V>B%<9....5.q......x...../....................T.7..!.....+..8...F.H....Y}-..Z..3.......1z....>.......~...FN.x......y.....a.....1O......u..........%...[|...X..q...G.<E.6.k/.B@.2L.1.U.~..K.....q.J.I..k..K.....WR;....).21"..o.k.\.H...%...._...c.w.9`.].....A...,1..[:].S.N!..:.F.....O..:}Z.GuzN..u..N/ht.h...4..FOk./..?..).....5zE.;A..L..........~.......@.p..%&p....p..?u.!u..\...)...Y3`..*p......+.....n0.|`.........0/`?.. ..X.|.k..`.u...z....AN.!....X.C.S|..5.V....(o....B..v..e....|...o@...z......|...A..>.&~.p7..?.\..t..1..O@:...^......Ag.(..o.`...&>......a/5e..%.%.vz;jK....d......<#...jKp~(...x.^..8f.\N.C..J.qX[2....Q.O .....0....C...fF...*.3....DO....d.D9C...I,.....?......f*......O...P.K........:.W\...I.#..e^<.v....-R.8..).....2.......x..Sx.e.7l/..K,m...L+.....V.....z.~k.-.!.:.-.._Op..../ /.........[.]..fo.....HL...y.c.O.N6..).@}.HM.w.!^.J.t._.x.........9..@(.a%.K..g..M=yP..........~...^.sc.....iW;&.08.>.v.u..Px[O....D&.]~-.......q4....i.&}..|D.V.....,......gz$..d.N.|."....oN..oO..u..p.{..e....R..FqS..].q.EH.uI.Pdq7u%.....P.'<Z.?.,......Q..I......=...z...w3S....HLT...x.XH..*o...<.....4.!M'.aR.%..:.=H..Pw...!>gx.i..|..qW..B0(...7..c.$b1iH"..R.t.+4......K[.<.r..[.RQ.3sH._.F.!B...h...Y6B..;..qY.....|kr|...T....c#.}.f.amYk...8.&g...DhE?....,!+..._.D..bAK9.*....<L..3,.(.U......ieyks..^"......|.*.(<K.V..0B..B3........~T1L.+^~.....{..../...}.(v.L>.|]......dl.....o..:h.$4K.C....Q.A.U....DoKD..K_.P=x..f.6... [...y...9*.y..2..~..u...E.|.K....E.WW..UG.......E..^Uo4`........M..d#t5...aZ.GW......7.K.I).\Zl.gs..K.`......">..a,...".h.Vc....<-.Jv.Aw..7)..Bh.W#J......*+..]....#..t^+.....G.^nS..s.<+..=..CT.-.U....Q....P....C.aTj>.........X..*ai4aI<a..!.Sf......&.@k.$...>......x..Ch....&.OUh.....<|Q..w.%..Hp....d....E......1.&O.......?...p.@....5...&Xb.j.t:...t..iP..NC:....N_...N_..%.^...:..N?...u.'.~..i.X....W...F....51].34Q....(.D..X.5Ff...3.v.&. ..A.VC6...M...n......C.m:..f.....n.[...N;h.X.&a/.z.......%......Q.'.......x.p..$.a...X...`...x..`LT.N..........4.....<...q...s...>.x.re=.[....u....$..~...D.z.........|6...S.'..9.f?.....!VB..."[.!lUO.0..!....1...3l....o`...o..C...._...2._......BY.... j....5C..R.AD-......tY!.g.l...8..]vH..!..@@....LD...X6...8..-..bN...A.,.E. .6..g....5p...........p......h....,F..!....xK .w)2..,.wL-e.....4.i*+[K..L.......je...(..]Z..)..L..M..Rk...i>)H.>J..H..K^.......)K..j..Rvm.j..q.?.k.S.1.........^....O.....|q..|PX.....[Q.Ss..E.c..6..f,... .. ..1e..q..r.....i).r..%..?.;.3....m...Hm\.,..{.ghS.t....T.[.....>...Ru<......&.se.........~..cR]..^......~..~U2`.}...._.q... [......`.....Jf...G..........P.X..T....o..R..-...n..VjF8........X91{.?...%.. ..{3...?n.B..>%......p....I.6...7...qaE.rO.._.`[b....6....2.Gx..7...Ki.P.Zi...[i._..D.......g....-.TE...'..y%..0.^.....IHEm......l..q........J)...3x..a.io. =....9+.@...tI..].^UL....Z.O..!.,..*.K.oD..{..WV+1.%..........A..y..u..;U;m..].}.k%.P..$.....*.I..........x...O.`....X...+......u.!..[.^(.F....B....#B..D..^.._..@=.@U.............,C.oF.J.....^c-...>....Zk..q....,........"m?`[:lT..V@.g;d...}g.....9.c...u.Y.U?A...Iw_,U....]\%U...m..+....).tY. .-kt..bi+<..}......s1.....L..N.J-J.{f..{.F.l.@/.X!=....=.....-`./..p...r<.#t.)~.q...]..M......{h...Y..#....[.j...ZKz.U..!.|....:kt(.s........~...:..l3;..l.v.......m.."..B..&;..:..X..[..;9.q.tY]...t.j..].'h.....u....n...k.o\.+[}..rY}./b=5Lk.y.Z......k...S...2S.JY+ ..V....K..TA+..~8....F....U..^5}^...I......K.B..e.Si.GC...n9O6g......GyW.~.f....&..@..7D....pl.u..g.k3\..#.&3.&...Y.....+.....^.....4V.x..l;)i.jOy.....}...Li:p. ....~Z5..Y)....^..s~.:...j.q..83.y..0-.U.m....5...F..Fp....t..bg........e.*/[....X]b1RT....}T...&.cLu0F'..W.....NP+G.V.U+.EkeM....7(b.R...b. -F..1b`...cdaFq.....N...$e.........m...X..$*.U........x.5...c......a./..Q!...c...U.Zk.3..s. x.7.....(....@..H.=...+bLY..q.V.....m..l`MH&.M........ q..]........O..c8........k.Y4..'.9.JY*v..s.a.1.6.Q..MM.....0...R
+
+PID:  3011 (0x0bc3)
+
+Guess table from table id...
+DSM-CC-decoding....
+Table_ID: 60 (0x3c)  [= DSM-CC - Download Data Messages (DDB)]
+Section_syntax_indicator: 1 (0x01)
+private_indicator: 0 (0x00)
+reserved_1: 3 (0x03)
+dsmcc_section_length: 3965 (0x0f7d)
+table_id_extension: 7 (0x0007)
+reserved_3: 3 (0x03)
+Version_number: 0 (0x00)
+Current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 2 (0x02)
+Last_section_number: 2 (0x02)
+DSM-CC Message Header:
+    protocolDiscriminator: 17 (0x11)
+    dsmccType: 3 (0x03)  [= Download message]
+    messageId: 4099 (0x1003)  [= DownloadDataBlock (DDB)]
+    downloadId: 2 (0x00000002)
+    reserved: 255 (0xff)
+    adaptationLength: 0 (0x00)
+    messageLength: 3944 (0x0f68)
+moduleId: 7 (0x0007)
+moduleVersion: 0 (0x00)
+reserved: 255 (0xff)
+blockNumber: 2 (0x0002)
+Block Data: 
+    .5p.*.....R..f.b6........y^.Rt...."...{.?.F.....-.Q......5.":=....)o9C..h.0]..]#P...E....l).>n...dM.t..I.;.x..k..&...f,........V>B%<9....5.q......x...../....................T.7..!.....+..8...F.H....Y}-..Z..3.......1z....>.......~...FN.x......y.....a.....1O......u..........%...[|...X..q...G.<E.6.k/.B@.2L.1.U.~..K.....q.J.I..k..K.....WR;....).21"..o.k.\.H...%...._...c.w.9`.].....A...,1..[:].S.N!..:.F.....O..:}Z.GuzN..u..N/ht.h...4..FOk./..?..).....5zE.;A..L..........~.......@.p..%&p....p..?u.!u..\...)...Y3`..*p......+.....n0.|`.........0/`?.. ..X.|.k..`.u...z....AN.!....X.C.S|..5.V....(o....B..v..e....|...o@...z......|...A..>.&~.p7..?.\..t..1..O@:...^......Ag.(..o.`...&>......a/5e..%.%.vz;jK....d......<#...jKp~(...x.^..8f.\N.C..J.qX[2....Q.O .....0....C...fF...*.3....DO....d.D9C...I,.....?......f*......O...P.K........:.W\...I.#..e^<.v....-R.8..).....2.......x..Sx.e.7l/..K,m...L+.....V.....z.~k.-.!.:.-.._Op..../ /.........[.]..fo.....HL...y.c.O.N6..).@}.HM.w.!^.J.t._.x.........9..@(.a%.K..g..M=yP..........~...^.sc.....iW;&.08.>.v.u..Px[O....D&.]~-.......q4....i.&}..|D.V.....,......gz$..d.N.|."....oN..oO..u..p.{..e....R..FqS..].q.EH.uI.Pdq7u%.....P.'<Z.?.,......Q..I......=...z...w3S....HLT...x.XH..*o...<.....4.!M'.aR.%..:.=H..Pw...!>gx.i..|..qW..B0(...7..c.$b1iH"..R.t.+4......K[.<.r..[.RQ.3sH._.F.!B...h...Y6B..;..qY.....|kr|...T....c#.}.f.amYk...8.&g...DhE?....,!+..._.D..bAK9.*....<L..3,.(.U......ieyks..^"......|.*.(<K.V..0B..B3........~T1L.+^~.....{..../...}.(v.L>.|]......dl.....o..:h.$4K.C....Q.A.U....DoKD..K_.P=x..f.6... [...y...9*.y..2..~..u...E.|.K....E.WW..UG.......E..^Uo4`........M..d#t5...aZ.GW......7.K.I).\Zl.gs..K.`......">..a,...".h.Vc....<-.Jv.Aw..7)..Bh.W#J......*+..]....#..t^+.....G.^nS..s.<+..=..CT.-.U....Q....P....C.aTj>.........X..*ai4aI<a..!.Sf......&.@k.$...>......x..Ch....&.OUh.....<|Q..w.%..Hp....d....E......1.&O.......?...p.@....5...&Xb.j.t:...t..iP..NC:....N_...N_..%.^...:..N?...u.'.~..i.X....W...F....51].34Q....(.D..X.5Ff...3.v.&. ..A.VC6...M...n......C.m:..f.....n.[...N;h.X.&a/.z.......%......Q.'.......x.p..$.a...X...`...x..`LT.N..........4.....<...q...s...>.x.re=.[....u....$..~...D.z.........|6...S.'..9.f?.....!VB..."[.!lUO.0..!....1...3l....o`...o..C...._...2._......BY.... j....5C..R.AD-......tY!.g.l...8..]vH..!..@@....LD...X6...8..-..bN...A.,.E. .6..g....5p...........p......h....,F..!....xK .w)2..,.wL-e.....4.i*+[K..L.......je...(..]Z..)..L..M..Rk...i>)H.>J..H..K^.......)K..j..Rvm.j..q.?.k.S.1.........^....O.....|q..|PX.....[Q.Ss..E.c..6..f,... .. ..1e..q..r.....i).r..%..?.;.3....m...Hm\.,..{.ghS.t....T.[.....>...Ru<......&.se.........~..cR]..^......~..~U2`.}...._.q... [......`.....Jf...G..........P.X..T....o..R..-...n..VjF8........X91{.?...%.. ..{3...?n.B..>%......p....I.6...7...qaE.rO.._.`[b....6....2.Gx..7...Ki.P.Zi...[i._..D.......g....-.TE...'..y%..0.^.....IHEm......l..q........J)...3x..a.io. =....9+.@...tI..].^UL....Z.O..!.,..*.K.oD..{..WV+1.%..........A..y..u..;U;m..].}.k%.P..$.....*.I..........x...O.`....X...+......u.!..[.^(.F....B....#B..D..^.._..@=.@U.............,C.oF.J.....^c-...>....Zk..q....,........"m?`[:lT..V@.g;d...}g.....9.c...u.Y.U?A...Iw_,U....]\%U...m..+....).tY. .-kt..bi+<..}......s1.....L..N.J-J.{f..{.F.l.@/.X!=....=.....-`./..p...r<.#t.)~.q...]..M......{h...Y..#....[.j...ZKz.U..!.|....:kt(.s........~...:..l3;..l.v.......m.."..B..&;..:..X..[..;9.q.tY]...t.j..].'h.....u....n...k.o\.+[}..rY}./b=5Lk.y.Z......k...S...2S.JY+ ..V....K..TA+..~8....F....U..^5}^...I......K.B..e.Si.GC...n9O6g......GyW.~.f....&..@..7D....pl.u..g.k3\..#.&3.&...Y.....+.....^.....4V.x..l;)i.jOy.....}...Li:p. ....~Z5..Y)....^..s~.:...j.q..83.y..0-.U.m....5...F..Fp....t..bg........e.*/[....X]b1RT....}T...&.cLu0F'..W.....NP+G.V.U+.EkeM....7(b.R...b. -F..1b`...cdaFq.....N...$e.........m...X..$*.U........x.5...c......a./..Q!...c...U.Zk.3..s. x.7.....(....@..H.=...+bLY..q.V.....m..l`MH&.M........ q..]........O..c8........k.Y4..'.9.JY*v..s.a.1.6.Q..MM.....0
+CRC: 4236280658 (0xfc808352)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 3012 (0x0bc4), Length: 4096 (0x1000)
+Time received: Tue 2023-07-04  12:22:10.472
+------------------------------------------------------------
+<.........................w.G +.. ....hEJ....V..14}.*...W.J.!.}X.p....w...)+.w.......o........Q.....a:....I....6.........$.. 6P.!H..b...X7....1..a.XB.G.....l.a{..I.g..[...b.4e.F.{....xi.........S...1...v....6.....Q.........6.3.G.^.#.....G...5........l...l3[..}..w.........}{..Dk..o....Z.XY....>..:..%m...G7..9j....S....um.......\].^.c......i~......}6.4H9...W.x.vw.....8.......C..4...../..A..dC.p0...M@.`..1.........5P.*,..,.o'R?1BQ....&.*..p..N.K...l'..*-...D.N..tbJ..E.Q-..R7f.i.....K..Gd.d6j$..".p<.......?....Z..j|.-.>=.b..M..3h.5f..."G1...[V........O.v...:8<h.4..(zD.....C....Ru.....A4..ryt.r|k.n.........7..$..e..{XN"X.:......n...`OB......|Q.&.o_.j}.U"....C...v.....s....|2h...........b.@7..W.[..%.8;k......{.o.K........gg...e....*...9}.o..9./.g.%$.........T....=..2S%!)............gg.R.]...+...W./.gYy..o..l^....?..=.c7.h.1...Q.1.....^>..;...Yt.4...p......i|........-a'cal..R....@..$.&4.....q.c{,o...HZ.....b.U+.....Du..v.r.|5.....x.|Y.T..{..{..../.....5.....3f1.`....o.3..c_..hPH.....um.a#......(.=..I.S.|.15...ct3.:.h.....e.e.<.4.4.....9.........C..u..M)nJs4.woo.ao....%!]^....E.6............^_..(!..L2.@.........\...(.X;M.!....,t.6~...h.JW....69#.R...;;.Eb.`A-......h.r.F.j...Lb.._.q...s........~8.{..wZ.fK\EG...M.=<Xp..c.b.V8.o*...Y.<...P........Xk......>b $G..zF...p.h=H4....#..a./...=........e.......}....R.%......+Ph...|_....r.LK.V....Va.`.......gZ.s..M^......T.,....D.Fv...~{.....[........C..K*(..J...v0G......4[4._......1.4U@.wz.v_.....5.#.&...[.%K.{... .i.|..6..X.q*..2...R.....5&.I....I...if..5.F:..H../.f?.x......`.PeN....s..R.t..'.4.......uP..#.S.t(#........?.!.8N...{H/Y.C....h.;}.xsp...c>...e...}.............v..<.....c...=....@.+LJu..H....e..`!A....`...[G.....2.gTh.h.W<Q.>M+...r.yN.Z...eq.3......I.."..z..Q..d5J..j.........O[F..wW..oX1......=.t';.?..%......`R...........vh.)..3]n.....8....[Xb.%y..O.,h\A..\u.....K.m......4.D...^.`.....hW...ha2.>p..}bTl.|..k..e...*.B..........g...2m.4..9l...X..7n...-.....r.zH}..U...Sk....w..aF.&U.P.....P[,D.WG^....zev*..w........@...E..a..0q4....y3.M...z..l.|<.k4.Se..e....R.U.p...w....f.w.....he^..U.....Q...8..9.....;.{.$.B~yj.+3@...k/.1p@.>....Bw.]!O-...6....et.D..;$>.....:.<.s.'......=....w..H.?>jx.HDWd.])....2.EX....v...`.Y.$^...Lo4&O...>x.H..c.....w'w.C.\.Wd..X.......J.-.n8...Hz....z.......l...X>E4d.$10.bnhu5%0Rd.Q....7..!..0.L...=...W..9..X..........5..b.;.\..Fm...L|.1..i...h..s.k..............2...S.......;T......_.|..\...W..X...Q.....&...82.v..J]..TM.k.e&d....a....s.w.^..?...w....uv......9...qkqm.b.;..d1..T..3u..&/.).8:....1...d.....F..=i`(r..:3.P.....*.........p........Bb.............p....:aF.....s=mS.uH.iO.#.....~....@...e8.....Gx...]...l..).......J.......M...[ )-B|l...._...x......:c5.{]>...C.Y.;;........Dm.G.g.........k.=;.i......Y.......?...~........?.].{x@.g~..??.W..]c..#...G..A.7./.ag:.5......x._n{..?.._...&<.....Uz...Ok=qR...L-..g6.H..gl]>.....4..G\...X..\)v^.uG ....|.Zv.......Ju....9o.....(....Z.p.78...FP.M.F.;.(...........$...U7H...0oU6.....$.Q.."......+f.Ha&.b.,1...C.b....Z0.y.....z...|..?.............C...YrJ.....ti..R(`.T .H.pW.......C.g...s.f.O.....yY2.G....C..#&}....@.{....b,.?...4L...%..[..!..r=..p..S..k....0........A.KP.....K.VW=*t.?....id.....8X....a.u............s...#..8j5N|~...G}.z....w...._.....J....cj..n.u...}.....}.wy....e...G.?..........[..M....t....5...Obn.2......Dr.Q.N4K.....)..M.uA....>....J._....2.sA.....RS....K^H.....I...W..}.J`.|2 ....8........AS.`F...,8.,.uZ)L.....)..Yi.e^]M..1......K......>.......R....^N.)cN%-..9...j..(..e.c.ZZN.s6.r60g3-g.s..r.0g;-g{f...)....).JuK.......%..O..9P....8..gx....s..i..ryK..ry.n..Y.$%o..L.*.y.U.A(>.3.6K..oUf9..qk:..76l..R.)..[.....{..sZ..^.j.f.Z.Y....R.1;.6x.k...:..A...=...h...S.n{i%.y...1.....C+...z........d%...h:`...?...]@... ...,.s.=.,:>.V.....v..;.L2...4J.A...4.....Ew....D.."........*a....".n..rP..^).\.p>.hX..wE..73.C.V...p.k...r...v....r;.....U.9F=.=. 0...}.....v.R....R.R.\.......Hi...S.=..*.6*.j._.....v._...j.T...7..R....U.......[P`.X...V....~.R[.n...v....^^w.....zi.d.F.Z..m..Becs....Xr...Y..J.?.Q..m...m..U....Z...].^..77..e.nQzAgp....&..0..V.R..n..!...8...v.T..*U......vy..](o..K.[....X...7.Fb..l..+.h..lo...Vq....{Y.DU*..m._...
+
+PID:  3012 (0x0bc4)
+
+Guess table from table id...
+DSM-CC-decoding....
+Table_ID: 60 (0x3c)  [= DSM-CC - Download Data Messages (DDB)]
+Section_syntax_indicator: 1 (0x01)
+private_indicator: 0 (0x00)
+reserved_1: 3 (0x03)
+dsmcc_section_length: 4093 (0x0ffd)
+table_id_extension: 4 (0x0004)
+reserved_3: 3 (0x03)
+Version_number: 0 (0x00)
+Current_next_indicator: 1 (0x01)  [= valid now]
+Section_number: 8 (0x08)
+Last_section_number: 15 (0x0f)
+DSM-CC Message Header:
+    protocolDiscriminator: 17 (0x11)
+    dsmccType: 3 (0x03)  [= Download message]
+    messageId: 4099 (0x1003)  [= DownloadDataBlock (DDB)]
+    downloadId: 3 (0x00000003)
+    reserved: 255 (0xff)
+    adaptationLength: 0 (0x00)
+    messageLength: 4072 (0x0fe8)
+moduleId: 4 (0x0004)
+moduleVersion: 0 (0x00)
+reserved: 255 (0xff)
+blockNumber: 8 (0x0008)
+Block Data: 
+    w.G +.. ....hEJ....V..14}.*...W.J.!.}X.p....w...)+.w.......o........Q.....a:....I....6.........$.. 6P.!H..b...X7....1..a.XB.G.....l.a{..I.g..[...b.4e.F.{....xi.........S...1...v....6.....Q.........6.3.G.^.#.....G...5........l...l3[..}..w.........}{..Dk..o....Z.XY....>..:..%m...G7..9j....S....um.......\].^.c......i~......}6.4H9...W.x.vw.....8.......C..4...../..A..dC.p0...M@.`..1.........5P.*,..,.o'R?1BQ....&.*..p..N.K...l'..*-...D.N..tbJ..E.Q-..R7f.i.....K..Gd.d6j$..".p<.......?....Z..j|.-.>=.b..M..3h.5f..."G1...[V........O.v...:8<h.4..(zD.....C....Ru.....A4..ryt.r|k.n.........7..$..e..{XN"X.:......n...`OB......|Q.&.o_.j}.U"....C...v.....s....|2h...........b.@7..W.[..%.8;k......{.o.K........gg...e....*...9}.o..9./.g.%$.........T....=..2S%!)............gg.R.]...+...W./.gYy..o..l^....?..=.c7.h.1...Q.1.....^>..;...Yt.4...p......i|........-a'cal..R....@..$.&4.....q.c{,o...HZ.....b.U+.....Du..v.r.|5.....x.|Y.T..{..{..../.....5.....3f1.`....o.3..c_..hPH.....um.a#......(.=..I.S.|.15...ct3.:.h.....e.e.<.4.4.....9.........C..u..M)nJs4.woo.ao....%!]^....E.6............^_..(!..L2.@.........\...(.X;M.!....,t.6~...h.JW....69#.R...;;.Eb.`A-......h.r.F.j...Lb.._.q...s........~8.{..wZ.fK\EG...M.=<Xp..c.b.V8.o*...Y.<...P........Xk......>b $G..zF...p.h=H4....#..a./...=........e.......}....R.%......+Ph...|_....r.LK.V....Va.`.......gZ.s..M^......T.,....D.Fv...~{.....[........C..K*(..J...v0G......4[4._......1.4U@.wz.v_.....5.#.&...[.%K.{... .i.|..6..X.q*..2...R.....5&.I....I...if..5.F:..H../.f?.x......`.PeN....s..R.t..'.4.......uP..#.S.t(#........?.!.8N...{H/Y.C....h.;}.xsp...c>...e...}.............v..<.....c...=....@.+LJu..H....e..`!A....`...[G.....2.gTh.h.W<Q.>M+...r.yN.Z...eq.3......I.."..z..Q..d5J..j.........O[F..wW..oX1......=.t';.?..%......`R...........vh.)..3]n.....8....[Xb.%y..O.,h\A..\u.....K.m......4.D...^.`.....hW...ha2.>p..}bTl.|..k..e...*.B..........g...2m.4..9l...X..7n...-.....r.zH}..U...Sk....w..aF.&U.P.....P[,D.WG^....zev*..w........@...E..a..0q4....y3.M...z..l.|<.k4.Se..e....R.U.p...w....f.w.....he^..U.....Q...8..9.....;.{.$.B~yj.+3@...k/.1p@.>....Bw.]!O-...6....et.D..;$>.....:.<.s.'......=....w..H.?>jx.HDWd.])....2.EX....v...`.Y.$^...Lo4&O...>x.H..c.....w'w.C.\.Wd..X.......J.-.n8...Hz....z.......l...X>E4d.$10.bnhu5%0Rd.Q....7..!..0.L...=...W..9..X..........5..b.;.\..Fm...L|.1..i...h..s.k..............2...S.......;T......_.|..\...W..X...Q.....&...82.v..J]..TM.k.e&d....a....s.w.^..?...w....uv......9...qkqm.b.;..d1..T..3u..&/.).8:....1...d.....F..=i`(r..:3.P.....*.........p........Bb.............p....:aF.....s=mS.uH.iO.#.....~....@...e8.....Gx...]...l..).......J.......M...[ )-B|l...._...x......:c5.{]>...C.Y.;;........Dm.G.g.........k.=;.i......Y.......?...~........?.].{x@.g~..??.W..]c..#...G..A.7./.ag:.5......x._n{..?.._...&<.....Uz...Ok=qR...L-..g6.H..gl]>.....4..G\...X..\)v^.uG ....|.Zv.......Ju....9o.....(....Z.p.78...FP.M.F.;.(...........$...U7H...0oU6.....$.Q.."......+f.Ha&.b.,1...C.b....Z0.y.....z...|..?.............C...YrJ.....ti..R(`.T .H.pW.......C.g...s.f.O.....yY2.G....C..#&}....@.{....b,.?...4L...%..[..!..r=..p..S..k....0........A.KP.....K.VW=*t.?....id.....8X....a.u............s...#..8j5N|~...G}.z....w...._.....J....cj..n.u...}.....}.wy....e...G.?..........[..M....t....5...Obn.2......Dr.Q.N4K.....)..M.uA....>....J._....2.sA.....RS....K^H.....I...W..}.J`.|2 ....8........AS.`F...,8.,.uZ)L.....)..Yi.e^]M..1......K......>.......R....^N.)cN%-..9...j..(..e.c.ZZN.s6.r60g3-g.s..r.0g;-g{f...)....).JuK.......%..O..9P....8..gx....s..i..ryK..ry.n..Y.$%o..L.*.y.U.A(>.3.6K..oUf9..qk:..76l..R.)..[.....{..sZ..^.j.f.Z.Y....R.1;.6x.k...:..A...=...h...S.n{i%.y...1.....C+...z........d%...h:`...?...]@... ...,.s.=.,:>.V.....v..;.L2...4J.A...4.....Ew....D.."........*a....".n..rP..^).\.p>.hX..wE..73.C.V...p.k...r...v....r;.....U.9F=.=. 0...}.....v.R....R.R.\.......Hi...S.=..*.6*.j._.....v._...j.T...7..R....U.......[P`.X...V....~.R[.n...v....^^w.....zi.d.F.Z..m..Becs....Xr...Y..J.?.Q..m...m..U....Z...].^..77..e.nQzAgp....&..0..V.R..n..!...8...v.T..*U......vy..](o..K.[....X...7.Fb..l..+.h..lo...Vq....{Y.DU*..m.
+CRC: 1606408175 (0x5fbfd7ef)
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4002 (0x0fa2), Length: 175 (0x00af)
+Time received: Tue 2023-07-04  12:22:10.534
+------------------------------------------------------------
+.0.....9J.<....g.8Y .Zh.O.".k...a.......r.......1.....r>.f.AL..."a....e....S8.c.R3W.R.w....uD..................,...6..TW....]..H..........qr@.......A..C....r......#E7..z....@.
+
+PID:  4002 (0x0fa2)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 129 (0x81)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 172 (0x00ac)
+CA_message_section_data:
+    ....9J.<....g.8Y .Zh.O.".k...a.......r.......1.....r>.f.AL..."a....e....S8.c.R3W.R.w....uD..................,...6..TW....]..H..........qr@.......A..C....r......#E7..z....@.
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4004 (0x0fa4), Length: 175 (0x00af)
+Time received: Tue 2023-07-04  12:22:10.621
+------------------------------------------------------------
+.0..........U.........U?......-..r...fE..+fA...._.t.._.$.....b.i../q..$.~..+Ct.B.]..0 .wI ....@l...v...]......+...P O.0...O..;$.3pz..m[.E.l...,......\wy....^.Ug."d..I.......@.
+
+PID:  4004 (0x0fa4)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 172 (0x00ac)
+CA_message_section_data:
+    .........U.........U?......-..r...fE..+fA...._.t.._.$.....b.i../q..$.~..+Ct.B.]..0 .wI ....@l...v...]......+...P O.0...O..;$.3pz..m[.E.l...,......\wy....^.Ug."d..I.......@.
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4006 (0x0fa6), Length: 175 (0x00af)
+Time received: Tue 2023-07-04  12:22:10.721
+------------------------------------------------------------
+.0....:...."....P......\."'.4+.E.....7..t.2u(:}b....saI..8!..v .$........;...............{.....*.&..b.....U>|..4..!L/..........i.#z.@..,.j..[.......2.go...I._...g>b..2I%....@.
+
+PID:  4006 (0x0fa6)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 172 (0x00ac)
+CA_message_section_data:
+    ...:...."....P......\."'.4+.E.....7..t.2u(:}b....saI..8!..v .$........;...............{.....*.&..b.....U>|..4..!L/..........i.#z.@..,.j..[.......2.go...I._...g>b..2I%....@.
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4007 (0x0fa7), Length: 175 (0x00af)
+Time received: Tue 2023-07-04  12:22:10.765
+------------------------------------------------------------
+.0....J.g..1..e4H..0...%hg............S.;..[............s(.........5.O.p6.@....r]...I..6....^U........3..:..b?....s\..^z<.^..V,........B...wss\1......t0...-.47/.n...........@.
+
+PID:  4007 (0x0fa7)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 172 (0x00ac)
+CA_message_section_data:
+    ...J.g..1..e4H..0...%hg............S.;..[............s(.........5.O.p6.@....r]...I..6....^U........3..:..b?....s\..^z<.^..V,........B...wss\1......t0...-.47/.n...........@.
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4202 (0x106a), Length: 100 (0x0064)
+Time received: Tue 2023-07-04  12:22:10.834
+------------------------------------------------------------
+.0a.0..\......D^T..H.;.....G.07B.6c..5.%.'.).....0y.?..b..?.g._.......^......9.&.`l...2...X.3....@..
+
+PID:  4202 (0x106a)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 129 (0x81)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 97 (0x0061)
+CA_message_section_data:
+    .0..\......D^T..H.;.....G.07B.6c..5.%.'.).....0y.?..b..?.g._.......^......9.&.`l...2...X.3....@..
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4302 (0x10ce), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:10.934
+------------------------------------------------------------
+.0...T..Z.....L.G..9BqR........A2z..a....Yy..&...l.#.G.Id.p..q..PY.#.69...u.....h.(..;..2...5........:.e.[DK.....k....l..%.....K.S..M.[.........p
+
+PID:  4302 (0x10ce)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 129 (0x81)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T..Z.....L.G..9BqR........A2z..a....Yy..&...l.#.G.Id.p..q..PY.#.69...u.....h.(..;..2...5........:.e.[DK.....k....l..%.....K.S..M.[.........p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4304 (0x10d0), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.021
+------------------------------------------------------------
+.0...T.}..]lH_.u.=.j.^S....;.=.}.#hC.I.T)..2bQU......5)d...gE.1K..E}[......X.?.~.T..l..H.Od*.S.K..]4I.y..s..H....%.]G....:...u..X.^.......f.....p
+
+PID:  4304 (0x10d0)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T.}..]lH_.u.=.j.^S....;.=.}.#hC.I.T)..2bQU......5)d...gE.1K..E}[......X.?.~.T..l..H.Od*.S.K..]4I.y..s..H....%.]G....:...u..X.^.......f.....p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4306 (0x10d2), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.121
+------------------------------------------------------------
+.0...T...........J^q<...u5.O...V^ih[.F...l..s.-&......4_..~..[4...Z...j?C......3...$p......o..?.u.Lq.K{..6.3]...kB....c......t..T.Tmv*.....T....p
+
+PID:  4306 (0x10d2)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T...........J^q<...u5.O...V^ih[.F...l..s.-&......4_..~..[4...Z...j?C......3...$p......o..?.u.Lq.K{..6.3]...kB....c......t..T.Tmv*.....T....p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4402 (0x1132), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.134
+------------------------------------------------------------
+.0...T....x.&o...^.M).@...HV....".8<V....Y...8y......^.../a.;.|. w+.T..j...pz.J...J.r...{^..{.E.. .W.......~.+|=h..6....Ta'.}...U..9.c.....E....p
+
+PID:  4402 (0x1132)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 129 (0x81)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T....x.&o...^.M).@...HV....".8<V....Y...8y......^.../a.;.|. w+.T..j...pz.J...J.r...{^..{.E.. .W.......~.+|=h..6....Ta'.}...U..9.c.....E....p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4404 (0x1134), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.209
+------------------------------------------------------------
+.0...T.p.}........Q....<.U..f.!T.Wu]=.^......=..T.....`.F..QX... ......`...#X7t.........%.e.x.. ....C.2(lz.S.M.&=..m.R{...t{.........-...ec.....p
+
+PID:  4404 (0x1134)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T.p.}........Q....<.U..f.!T.Wu]=.^......=..T.....`.F..QX... ......`...#X7t.........%.e.x.. ....C.2(lz.S.M.&=..m.R{...t{.........-...ec.....p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4406 (0x1136), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.221
+------------------------------------------------------------
+.0...T.ud.s...b...no.T.+....'I{].x...s._...Y..>.C.<r.9.,....B.o.c.HHe.F..w.v..rC..X.k7"....A!..Z....e!w...1.=.9..+.mk....CM..P.._...G...x.......p
+
+PID:  4406 (0x1136)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T.ud.s...b...no.T.+....'I{].x...s._...Y..>.C.<r.9.,....B.o.c.HHe.F..w.v..rC..X.k7"....A!..Z....e!w...1.=.9..+.mk....CM..P.._...G...x.......p
+==========================================================
+
+
+------------------------------------------------------------
+SECT-Packet: 00000001   PID: 4407 (0x1137), Length: 145 (0x0091)
+Time received: Tue 2023-07-04  12:22:11.266
+------------------------------------------------------------
+.0...T.R..s+c....De...Q,.]...N..Z....0.g.c...5..k.j"2R..z"...?]..............Y.....2u.k]].E..Lh...s.&...*...5XY.a(R..n.4...H/..+.5.b...i..C@....p
+
+PID:  4407 (0x1137)
+
+Guess table from table id...
+CAMT-decoding....
+Table_ID: 128 (0x80)  [= DVB CA message section (EMM/ECM)]
+section_syntax_indicator: 0 (0x00)
+reserved_1: 0 (0x00)
+reserved_2: 3 (0x03)
+Section_length: 142 (0x008e)
+CA_message_section_data:
+    ..T.R..s+c....De...Q,.]...N..Z....0.g.c...5..k.j"2R..z"...?]..............Y.....2u.k]].E..Lh...s.&...*...5XY.a(R..n.4...H/..+.5.b...i..C@....p
+==========================================================
+

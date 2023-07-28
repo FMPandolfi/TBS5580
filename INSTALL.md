@@ -84,8 +84,8 @@ tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -
 tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P analyze --normalized -O drop \
 - **Write TS tables from satellite TS**\
 tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --xml-output tsp-dvb-tables-dump-test.xml -O drop 
-- **Write TS tables in PSI/SI format from satellite TS**\
-tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --psi-si -O drop
+- **Write TS tables in PSI/SI format from satellite TS (updated with timing values from Standard)**\
+tsp -I dvb --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until -s 30 -P tables -c --europe --include-next --invalid-versions --no-duplicate --psi-si --pack-all-sections --xml-output tsp-dvb-tables-dump-test-30s.xml -O drop
 - **SDT table dump in xml format**\
 tsp -I dvb --signal-timeout 4 --device-name /dev/dvb/adapter0:1 -f 11766000000 -s 29900000 -m 8-PSK --roll-off 35 --delivery-system DVB-S2 -P until --seconds 4 -P tables --pid 17 --xml-output tsp-dvb-tables-sdt-pid17-dump-test.xml -O drop
 - **EIT table dump in xml format**\
